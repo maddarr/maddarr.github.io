@@ -295,3 +295,9 @@ html, body {
    margin-top: -100px;
    box-shadow: 15px 15px 10px rgb(17, 16, 16);
  }
+
+ @media only screen and (min-width: 480px) and (max-width: 600px)  {
+   #aboutme {
+     max-width: 600px;
+   }
+ }
