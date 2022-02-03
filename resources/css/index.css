@@ -136,17 +136,11 @@ html, body {
    margin-top: 2%;
    margin-left: 25%;
  }
- #me {
-   box-shadow: 15px 15px 10px rgb(17, 16, 16); 
-
+ .about img{
+   padding-right: 2%;
  }
- #aboutme {
-     z-index: 10;
+ .about p {
      box-shadow: 15px 15px 10px rgb(17, 16, 16);
-     height: 140px;
-     align-items: center;
-     margin-top: -150px;
-     margin-left: 17%;
      width: 50%;
      background-color: rgb(129, 160, 155);  
  }
