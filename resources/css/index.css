@@ -64,3 +64,8 @@ button {
   background-color: rgb(99, 128, 128);
   border-radius: 30px;
 }
+#footer {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
