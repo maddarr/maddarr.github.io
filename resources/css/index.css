@@ -79,6 +79,9 @@ button {
   margin-left: 10px;
   margin-right: 10px;
 }
+#aboutimg {
+  border-radius: 30px;
+}
 @media (max-width: 480px), (orientation: landscape) {
   li {
     font-size: 40px;
