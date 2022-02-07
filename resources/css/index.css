@@ -97,9 +97,13 @@ button {
     font-weight: bold;
   }
 }
+#fb {
+  border-radius: 10px;
+}
 .facebook {
   margin-left: 10px;
   margin-right: 5px;
+ 
 }
 .instagram {
   margin-left: 5px;
