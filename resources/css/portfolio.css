@@ -1,0 +1,210 @@
+html body{
+    max-width: 2000px;
+    background-image: url(../images/background.jpeg);
+    align-content: center;
+  }
+  /*TEXT SETUP */
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #e8eca8;
+  }
+  p {
+    margin-left: 3%;
+    width:50%;
+    font-size: medium;
+    text-align: left;
+    color: #9adfd9;  
+  }
+
+  /* GRID SETUP*/
+  .gridbody {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: auto;
+  }
+  .gridbody .nav {
+    background-color:rgba(13, 16, 44, 0.9);  
+    position: fixed;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 10;
+  }
+  .gridbody .swift .swiftTitle{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;   
+  }
+  .gridbody .swift {
+    grid-column-start: 1;
+    grid-column-end: 13;    
+  }
+  .gridbody .python {
+    grid-column-start: 1;
+    grid-column-end: 13;    
+  }
+  .gridbody .python .pythonTitle{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;   
+  }
+  .gridbody .web {
+    grid-column-start: 1;
+    grid-column-end: 13;    
+  }
+  .gridbody .web .webTitle{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;   
+  }
+  .gridbody .footer {
+    background-color:rgba(13, 16, 44, 0.9);   
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 20;
+    grid-row-end: 21;
+    margin: 1%;
+  }
+
+  /* NAVIGATION BAR */
+.nav {
+    display: inline-flex;
+    height: auto;
+    width: 100%;
+    
+  }
+  .nav #one {
+    width: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.5rem;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-right: 1%;
+    color: #f3f6f7;
+   }
+  .nav #back, #swift, #python, #web {
+    background-color:rgba(240, 237, 206, 0.7);
+    width: 10%;
+    margin: 1% 3% 3% 3%;
+    font-size: 1.4rem;
+  }
+
+  
+  .swift, .python, .web {
+    background-color:rgba(13, 16, 44, 0.6);  
+  }
+
+  /* HEADINGS AND TITLES */
+  .swiftTitle, .pythonTitle, .webTitle{
+    width: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 1%;
+    margin-top: 150px;
+    margin-right: 1%;
+    color:#f0edce ;  
+  }
+  #cc {
+      color: #f0f788;
+  }
+
+  /* SWIFT PICTURES AND CONTENT*/
+  .solomission .sm2, .sm3, .sm4{
+    max-width: 20%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  .solomission .sm1{
+    max-width: 30%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+  .keyhunter .key1{
+    max-width: 30%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3% ;
+  }
+  .keyhunter .key2, .key3{
+    max-width: 30%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  .wsmanual .wsm0, .wsm1{
+    max-width: 40%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+  .wsmanual .wsm2, .wsm3{
+    max-width: 40%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+
+  /*PYTHON PICTURES AND CONTENT*/
+  .stupidWays .sw3, .sw4{
+    max-width: 40%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+  .stupidWays .sw1, .sw2{
+    max-width: 40%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+   /*HTML AND CSS PICTURES AND CONTENT*/
+   .evesunflower .es1{
+    max-width: 40%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+  .evesunflower .es2, .es3, .es4{
+    max-width: 45%;
+    min-width: 3%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+
+  /* FOOTER STUFF*/
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    
+  }
+  .name {
+    margin:1%;  
+    color:#f0edce ;    
+  }
+  
+  
+  
