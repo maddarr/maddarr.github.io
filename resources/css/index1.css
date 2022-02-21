@@ -1,0 +1,95 @@
+html body{
+  max-width: 2000px;
+  background-image: url(../images/Aus.jpeg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+}
+
+/* GRID SETUP*/
+.gridbody {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+.gridbody .heading {
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+.gridbody .navigation {
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+.gridbody .footer {
+  background-color:rgba(13, 16, 44, 0.7);   
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+
+/* HEADING BAR */
+.heading {
+  display: flex;
+  width: 100%;
+  height: 9.5rem;   
+}
+.heading #headingname {
+  width: 70%;
+  margin-left: 3%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4.5rem;
+  color: whitesmoke;
+}
+.heading #headingimg{
+  max-width: 20%;
+  min-width: 1%;
+  height: auto;
+}
+.navigation {
+  display: inline;  
+  margin-top: 10%;
+  width: 100%;
+}
+.navigation .nav{
+  float: right;
+  align-items: left;
+  width: 20%;
+}
+button {
+  background-color:rgba(136, 227, 243, 0.13);
+  width: 70%;
+  margin: 1% 1% 2% 2%;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;           
+}
+.name {
+  color:#f0edce ;
+}
+ 
+@media(max-width: 1000px) {
+  button {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+}
+@media(max-width: 500px) {
+  .heading #headingname {
+    font-size: 3.5rem;
+  }
+  .heading #headingimg{
+    max-width: 30%;
+   }
+}
+   
+  
