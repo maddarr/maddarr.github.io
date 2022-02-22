@@ -118,7 +118,7 @@ html body{
     width: 100%;
   }
 }
-@media(max-width: 600px) {
+@media(max-width: 400px) {
   .heading #headingname {
     font-size: 3.5rem;
   }
