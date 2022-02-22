@@ -114,6 +114,7 @@ html body{
   .navigation .home{
     float: left;
 }
+}
 @media(max-width: 480px) {
   .heading #headingname {
     font-size: 3.5rem;
@@ -130,11 +131,10 @@ html body{
    .portfolio button {
     font-size: 2.3rem;
     width: 260%;
-    
-   }
+  }
    .navigation .home{
     float: left;
    }
-}
+  }
    
   
