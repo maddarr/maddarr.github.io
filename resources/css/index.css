@@ -52,15 +52,30 @@ html body{
   margin-top: 10%;
   width: 100%;
 }
-.navigation .nav{
+.navigation .home{
   float: right;
   align-items: left;
   width: 20%;
 }
-button {
+.navigation .portfolio{
+  float: left;
+  align-items: left;
+  width: 20%;
+}
+.home button {
   background-color:rgba(136, 227, 243, 0.13);
   width: 70%;
-  margin: 1% 1% 2% 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 1rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.portfolio button {
+  background-color:rgba(136, 227, 243, 0.863);
+  width: 70%;
+  margin-left: 1%;
+  margin-right: 1%;
   font-size: 1rem;
   margin-top: 5%;
   margin-bottom: 5%;
