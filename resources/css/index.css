@@ -1,5 +1,5 @@
 html body{
-  max-width: 2000px;
+  max-width: 2400px;
   background-image: url(../images/Aus.jpeg);
   min-height: 100%;
   background-repeat: no-repeat;
@@ -8,6 +8,7 @@ html body{
   background-size: cover;
   align-content: center;
 }
+
 
 /* GRID SETUP*/
 .gridbody {
@@ -43,39 +44,25 @@ html body{
   color: whitesmoke;
 }
 .heading #headingimg{
-  max-width: 20%;
-  min-width: 1%;
+  margin-right: 5%;
+  width: 100px;
   height: auto;
 }
 .navigation .home{
   float: right;
-  align-items: left;
-  width: 20%;
-  display: inline;  
-  margin-top: 10%;
-}
-.navigation .portfolio{
-  width: 70%;
-  float: right;
   align-items: center;
-  display: flex; 
-  margin-top: -5%; 
+  width: 50%;
+  display: inline;  
 }
 .home button {
-  background-color:rgba(136, 227, 243, 0.13);
+  background-color:rgba(248, 248, 244, 0.774);
   width: 300px;
+  height: 50px;
   margin-right: 10%;
   margin-left: -20%;
   font-size: 1.3rem;
   margin-top: 5%;
   margin-bottom: 5%;
-}
-.portfolio button {
-  background-color:rgba(136, 227, 243, 0.863);
-  width: 200px;
-  margin-left: 1%;
-  margin-right: 1%;
-  font-size: 1rem;
 }
 
 /* FOOTER */
@@ -96,44 +83,48 @@ html body{
     margin-top: -15px;
     font-size: 3.5rem;
   }
-  .navigation .portfolio {
-    margin-right: -7%;
-    width: 100%;
-  }
 }
  
 @media(max-width: 950px) {
   .home button {
-    background-color:rgba(136, 227, 243, 0.863); 
+    background-color:rgba(248, 248, 244, 0.774);
     font-size: 1.3rem;
     width: 300px;
   }
   .navigation .home{
-    float: left;
-  }
-  .navigation .portfolio {
-    display: block;
-    margin-right: -150px;
-    margin-top: -100px;
-    width: 100%;
+    align-items: center;
   }
 }
-@media(max-width: 400px) {
+@media(max-width: 650px) {
   .heading #headingname {
     font-size: 3.5rem;
   }
-  .heading #headingimg{
-    max-width: 30%;
-   }
-   .home button {
-    background-color:rgba(136, 227, 243, 0.863); 
+  .navigation .home{
+    align-items: center;
+  }
+  .home button {
+    margin-left: -110px;
+    background-color:rgba(248, 248, 244, 0.774);
     font-size: 2.3rem;
     width: 300px;
-    margin-right: 5%;
-   }
-   .navigation .home{
-    float: left;
-   }
+    height: 100px;
   }
+  
+  }
+  @media screen and (max-width: 480px) {
+    .heading #headingname {
+      font-size: 3.5rem;
+    }
+    .navigation .home{
+      align-items: center;
+     }
+    .home button {
+      margin-left: -110px;
+      background-color:rgba(248, 248, 244, 0.774);
+      font-size: 2.3rem;
+      width: 300px;
+      height: 100px;
+     }
+    }
    
   

@@ -1,210 +1,162 @@
-html body{
-    max-width: 2000px;
-    background-image: url(../images/background.jpeg);
-    align-content: center;
-  }
-  /*TEXT SETUP */
-  h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #e8eca8;
-  }
-  p {
-    margin-left: 3%;
-    width:50%;
-    font-size: medium;
-    text-align: left;
-    color: #9adfd9;  
-  }
+html body {
+  max-width: 2400px;
+  background-image: url(../images/Sky.jpeg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+}
+/* GRID SETUP*/
+.gridbody {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+/* HEADING BAR */
+.heading {
+  background-color:rgba(23, 43, 46, 0.432);
+  display: flex;
+  width: 100%;
+  height: 9.5rem;   
+  position: fixed;
+ 
+}
+.heading #headingname {
+  margin-right: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4.5rem;
+  color: whitesmoke;
+}
+.heading #headingimg{
+  margin-right: 5%;
+  width: 100px;
+  height: auto;
+}
+.heading .nav {
+  width: 150%;
+  margin-left: 5%;
+  margin-right: 0%;
+  margin-top: 7%;
+}
+.heading .portfolio button {
+  background-color:rgba(136, 227, 243, 0.863);
+  width: 200px;
+  height: 30px;
+  margin: 1%;
+  font-size: 1rem;
+  
+}
+.mainbody {
+  margin-top: 150px;
+}
+.h2, .ph3{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color:black ;
+}
+.p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  word-spacing: 1;
+  font-weight: bold;
+  color:black ;
+  margin-right: 4%;
+}
 
-  /* GRID SETUP*/
-  .gridbody {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 1;
-    grid-row-end: auto;
+/*SWIFT BODY OF WORK*/
+.swiftbody .h2, .p{
+  margin-left: 10%;
+  width: 80%;
+  min-width: 5%;
+  height: auto;
+}
+.S1 img {
+  display: inline;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 25%;
+}
+
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 3.5rem;           
+}
+.name {
+  color:#f0edce ;
+}
+
+@media(max-width: 1620px) {
+  .heading #headingname {
+    font-size: 3.5rem;
   }
-  .gridbody .nav {
-    background-color:rgba(13, 16, 44, 0.9);  
-    position: fixed;
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    z-index: 10;
+  .navigation .portfolio {
+    margin-right: -7%;
+    width: 100%;
   }
-  .gridbody .swift .swiftTitle{
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 3;
-    grid-row-end: 4;   
-  }
-  .gridbody .swift {
-    grid-column-start: 1;
-    grid-column-end: 13;    
-  }
-  .gridbody .python {
-    grid-column-start: 1;
-    grid-column-end: 13;    
-  }
-  .gridbody .python .pythonTitle{
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 6;
-    grid-row-end: 7;   
-  }
-  .gridbody .web {
-    grid-column-start: 1;
-    grid-column-end: 13;    
-  }
-  .gridbody .web .webTitle{
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 6;
-    grid-row-end: 7;   
-  }
-  .gridbody .footer {
-    background-color:rgba(13, 16, 44, 0.9);   
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 20;
-    grid-row-end: 21;
+}
+@media(max-width: 950px) {
+  .heading {
     margin: 1%;
-  }
-
-  /* NAVIGATION BAR */
-.nav {
-    display: inline-flex;
     height: auto;
-    width: 100%;
-    
+    position: fixed;
   }
-  .nav #one {
-    width: auto;
+  .heading #headingname {
+    font-size: 3.5rem;
+  }
+  .heading .portfolio {
+  margin-right: -7%;
+  width: 100%;
+  }
+  .mainbody {
+    margin-top: 370px;
+  }
+}
+ 
+@media(max-width: 650px) {
+  .heading {
+    display:block;
+    margin: 1%;
+    height: auto;
+    position: fixed;
+  }
+  .heading #headingname {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4.5rem;
-    margin-left: 1%;
-    margin-top: 20px;
-    margin-right: 1%;
-    color: #f3f6f7;
-   }
-  .nav #back, #swift, #python, #web {
-    background-color:rgba(240, 237, 206, 0.7);
-    width: 10%;
-    margin: 1% 3% 3% 3%;
-    font-size: 1.4rem;
+    font-size: 3.5rem;
   }
-
-  
-  .swift, .python, .web {
-    background-color:rgba(13, 16, 44, 0.6);  
+  .heading .portfolio {
+  margin-left: -8%;
+  margin-top: -2%;
   }
-
-  /* HEADINGS AND TITLES */
-  .swiftTitle, .pythonTitle, .webTitle{
-    width: auto;
+  .mainbody {
+    margin-top: 370px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    display:block;
+    margin: 1%;
+    height: auto;
+    position: fixed;
+  }
+  .heading #headingname {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-    margin-left: 1%;
-    margin-top: 150px;
-    margin-right: 1%;
-    color:#f0edce ;  
+    font-size: 3.5rem;
   }
-  #cc {
-      color: #f0f788;
+  .heading .portfolio {
+  margin-left: -8%;
+  margin-top: -2%;
   }
-
-  /* SWIFT PICTURES AND CONTENT*/
-  .solomission .sm2, .sm3, .sm4{
-    max-width: 20%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 1%;
+  .mainbody {
+    margin-top: 370px;
   }
-  .solomission .sm1{
-    max-width: 30%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 2%;
   }
-  .keyhunter .key1{
-    max-width: 30%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3% ;
-  }
-  .keyhunter .key2, .key3{
-    max-width: 30%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 1%;
-  }
-  .wsmanual .wsm0, .wsm1{
-    max-width: 40%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3%;
-  }
-  .wsmanual .wsm2, .wsm3{
-    max-width: 40%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3%;
-  }
-
-  /*PYTHON PICTURES AND CONTENT*/
-  .stupidWays .sw3, .sw4{
-    max-width: 40%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3%;
-  }
-  .stupidWays .sw1, .sw2{
-    max-width: 40%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3%;
-  }
-   /*HTML AND CSS PICTURES AND CONTENT*/
-   .evesunflower .es1{
-    max-width: 40%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3%;
-  }
-  .evesunflower .es2, .es3, .es4{
-    max-width: 45%;
-    min-width: 3%;
-    height: auto;
-    margin-top: 1%;
-    margin-left: 3%;
-  }
-
-  /* FOOTER STUFF*/
-  
-  .footer {
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-    width: 100%;
-    
-  }
-  .name {
-    margin:1%;  
-    color:#f0edce ;    
-  }
-  
-  
-  
