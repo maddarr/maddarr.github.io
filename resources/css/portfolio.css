@@ -11,6 +11,7 @@ html body {
 /* GRID SETUP*/
 .gridbody {
   display: grid;
+  columns: repeat(12, 1fr);
   grid-column-start: 1;
   grid-column-end: 12;
 }
@@ -21,8 +22,7 @@ html body {
   width: 100%;
   height: 9.5rem;   
   position: fixed;
- 
-}
+ }
 .heading #headingname {
   margin-right: 5%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -46,16 +46,16 @@ html body {
   height: 30px;
   margin: 1%;
   font-size: 1rem;
-  
 }
 .mainbody {
   margin-top: 150px;
+  background-color:rgba(15, 39, 43, 0.575);
 }
 .h2, .ph3{
   text-align: center;
   font-size: 1.4rem;
   font-weight: 800;
-  color:black ;
+  color:rgb(62, 211, 107) ;
 }
 .p {
   font-family: 'Times New Roman', Times, serif;
@@ -63,7 +63,7 @@ html body {
   line-height: 1.2rem;
   word-spacing: 1;
   font-weight: bold;
-  color:black ;
+  color:whitesmoke ;
   margin-right: 4%;
 }
 
@@ -79,9 +79,22 @@ html body {
   margin-right: 3%;
   margin-top: 1%;
   margin-bottom: 2%;
-  width: 25%;
+  width: 20%;
 }
-
+.S2 img {
+  display: inline;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 30%;
+}
+.S3 img {
+  display: inline;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 20%;
+}
 
 
 /* FOOTER */
@@ -194,6 +207,7 @@ html body {
     height: 50px;
   }
   .mainbody {
-    margin-top: 480px;
+    margin-top: 48
+    0px;
   }
   }
