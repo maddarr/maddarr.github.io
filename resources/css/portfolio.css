@@ -99,26 +99,41 @@ html body {
   .heading #headingname {
     font-size: 3.5rem;
   }
-  .navigation .portfolio {
-    margin-right: -7%;
-    width: 100%;
+  .heading .portfolio button {
+    width: 200px;
+  }
+  .mainbody {
+    margin-top: 170px;
   }
 }
-@media(max-width: 950px) {
+@media(max-width: 1000px) {
   .heading {
     margin: 1%;
     height: auto;
     position: fixed;
   }
   .heading #headingname {
+    text-align: center;
     font-size: 3.5rem;
   }
   .heading .portfolio {
   margin-right: -7%;
   width: 100%;
   }
+  .heading .portfolio button {
+    background-color:rgba(136, 227, 243, 0.863);
+    font-size: 1.3rem;
+    width: 200px;
+    height: 50px;
+  }
+  .heading #headingimg{
+    margin-right: 5%;
+    width: 100px;
+    height: 150px;
+  }
+
   .mainbody {
-    margin-top: 370px;
+    margin-top: 280px;
   }
 }
  
@@ -133,12 +148,23 @@ html body {
     text-align: center;
     font-size: 3.5rem;
   }
+  .heading #headingimg{
+    margin-right: 5%;
+    width: 100px;
+    height: 150px;
+  }
   .heading .portfolio {
   margin-left: -8%;
   margin-top: -2%;
   }
+  .heading .portfolio button {
+    background-color:rgba(136, 227, 243, 0.863);
+    font-size: 1.3rem;
+    width: 200px;
+    height: 50px;
+  }
   .mainbody {
-    margin-top: 370px;
+    margin-top: 430px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -152,11 +178,22 @@ html body {
     text-align: center;
     font-size: 3.5rem;
   }
+  .heading #headingimg{
+    margin-right: 5%;
+    width: 100px;
+    height: 150px;
+  }
   .heading .portfolio {
   margin-left: -8%;
   margin-top: -2%;
   }
+  .heading .portfolio button {
+    background-color:rgba(136, 227, 243, 0.863);
+    font-size: 1.3rem;
+    width: 200px;
+    height: 50px;
+  }
   .mainbody {
-    margin-top: 370px;
+    margin-top: 480px;
   }
   }
