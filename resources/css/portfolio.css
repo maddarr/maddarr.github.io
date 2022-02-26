@@ -144,9 +144,20 @@ html body {
     width: 100px;
     height: 150px;
   }
-
   .mainbody {
     margin-top: 280px;
+  }
+  .S1 img {
+    margin-left: 25%;
+    width: 40%;
+  }
+  .S2 img {
+    margin-left: 25%;
+    width: 40%;
+  }
+  .S3 img {
+    margin-left: 25%;
+    width: 50%;
   }
 }
  
@@ -179,6 +190,18 @@ html body {
   .mainbody {
     margin-top: 430px;
   }
+  .S1 img {
+    margin-left: 25%; 
+    width: 40%;
+  }
+  .S2 img {
+    width: 40%;
+    margin-left: 25%;
+  }
+  .S3 img {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
 @media screen and (max-width: 480px) {
   .heading {
@@ -209,5 +232,17 @@ html body {
   .mainbody {
     margin-top: 48
     0px;
+  }
+  .S1 img {
+    margin-left: 25%;
+    width: 40%;
+  }
+  .S2 img {
+    margin-left: 25%;
+    width: 40%;
+  }
+  .S3 img {
+    margin-left: 25%;
+    width: 50%;
   }
   }
