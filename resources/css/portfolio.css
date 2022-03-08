@@ -17,9 +17,11 @@ html body {
 }
 /* HEADING BAR */
 .heading {
-  background-color:rgba(23, 43, 46, 0.432);
+  margin-top: -10px;
+  background-color:whitesmoke;
   display: flex;
   width: 100%;
+  height: auto;
   height: 9.5rem;   
   position: fixed;
  }
@@ -27,7 +29,7 @@ html body {
   margin-right: 5%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 4.5rem;
-  color: whitesmoke;
+  color: black;
 }
 .heading #headingimg{
   margin-right: 5%;
@@ -41,14 +43,14 @@ html body {
   margin-top: 7%;
 }
 .heading .portfolio button {
-  background-color:rgba(136, 227, 243, 0.863);
+  background-color:#77F295;
   width: 200px;
   height: 30px;
   margin: 1%;
   font-size: 1rem;
 }
 .mainbody {
-  margin-top: 150px;
+  margin-top: 170px;
   background-color:rgba(15, 39, 43, 0.575);
 }
 .h2, .ph3{
@@ -57,7 +59,13 @@ html body {
   font-weight: 800;
   color:rgb(62, 211, 107) ;
 }
-.p {
+.ph2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color:rgb(62, 211, 107) ;
+}
+.p{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
   line-height: 1.2rem;
@@ -66,7 +74,16 @@ html body {
   color:whitesmoke ;
   margin-right: 4%;
 }
-
+.c{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  word-spacing: 1;
+  font-weight: bold;
+  color:whitesmoke ;
+  margin-right: 4%;
+}
 /*SWIFT BODY OF WORK*/
 .swiftbody .h2, .p{
   margin-left: 10%;
@@ -97,18 +114,20 @@ html body {
 }
 
 /*CERTIFICATIONS BODY OF WORK*/
-.certbody .h2, .p{
-  margin-left: 10%;
-  width: 80%;
+.certbody {
+  margin-top: 1%;
+  margin-left: 3%;
+  width: 100%;
   min-width: 5%;
   height: auto;
 }
 .C1 img {
   display: inline;
-  margin-right: 3%;
+  margin-right: 1%;
+  margin-left: 3%;
   margin-top: 1%;
   margin-bottom: 2%;
-  width: 40%;
+  width: 42%;
 }
 
 /* FOOTER */
