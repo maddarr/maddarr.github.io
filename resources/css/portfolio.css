@@ -96,6 +96,20 @@ html body {
   width: 20%;
 }
 
+/*CERTIFICATIONS BODY OF WORK*/
+.certbody .h2, .p{
+  margin-left: 10%;
+  width: 80%;
+  min-width: 5%;
+  height: auto;
+}
+.C1 img {
+  display: inline;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 40%;
+}
 
 /* FOOTER */
 .footer {
