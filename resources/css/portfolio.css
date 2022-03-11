@@ -175,7 +175,7 @@ html body {
   color:rgb(62, 211, 107);
   padding-left: 2%;
 }
-.ph4 {
+.ph4, .aboutme {
   text-align: left;
   font-size: 2rem;
   font-weight: 800;
@@ -183,7 +183,7 @@ html body {
   padding-left: 2%;
   width: 95%;
 }
-.responsibilities{
+.responsibilities, .summary{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
@@ -194,11 +194,29 @@ html body {
   margin-right: 4%;
 }
 .E1, .E2, .E3, .E4, .E5, .E6 {
+  width: 60%;
   background-color: rgb(55, 58, 58);
   padding-top: 2%;
   padding-bottom: 3%;
 }
-
+.E7 {
+  text-align: left;
+  width:35%;
+  background-color: rgb(55, 58, 58);
+  padding-top: 2%;
+  padding-bottom: 3%;
+  float: right;
+}
+.about {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  word-spacing: 1;
+  letter-spacing: 0.07rem;
+  font-weight: bold;
+  color:whitesmoke ;
+  margin-right: 4%;
+}
 
 /* FOOTER */
 .footer {
