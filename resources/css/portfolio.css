@@ -112,8 +112,28 @@ html body {
   margin-right: 3%;
   margin-top: 1%;
   margin-bottom: 2%;
-  width: 20%;
+  width: 30%;
 }
+/*PYTHON BODY OF WORK*/
+#snaky, #weby {
+ padding-top: 10%;
+}
+.S4 img {
+  display: inline;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 40%;
+}
+/*WEB DESIGN BODY OF WORK*/
+.S5 img {
+  display: inline;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  width: 40%;
+}
+
 
 /*CERTIFICATIONS BODY OF WORK*/
 .certbody {
@@ -145,6 +165,23 @@ html body {
   margin-top: 1%;
   margin-bottom: 2%;
   width: 42%;
+}
+
+/*EMPLOYMENT HISTORY*/
+.position {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color:rgb(62, 211, 107);
+  padding-left: 2%;
+}
+.E1 .ph4 {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 800;
+  color:rgb(62, 211, 107);
+  padding-left: 2%;
+  width: 95%;
 }
 
 
