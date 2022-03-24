@@ -89,20 +89,6 @@ html body {
   min-width: 5%;
   height: auto;
 }
-.S1 img {
-  display: inline;
-  margin-right: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 20%;
-}
-.S2 img {
-  display: inline;
-  margin-right: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 30%;
-}
 .S3 img {
   display: inline;
   margin-right: 3%;
@@ -119,14 +105,19 @@ html body {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1 {
+  display: none;
+  padding-left: 20%;
+  z-index: 1;
+}
+.mySlides2 {
   display: none;
   padding-left: 20%;
   z-index: 1;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev1, .next1 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -140,18 +131,36 @@ html body {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 /* Position the "next button" to the right */
-.next {
+.next1 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev1:hover, .next1:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -162,7 +171,7 @@ html body {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot1 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -172,11 +181,22 @@ html body {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-.active, .dot:hover {
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot1:hover {
   background-color: #717171;
 }
-
+.active, .dot2:hover {
+  background-color: #717171;
+}
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -349,11 +369,6 @@ html body {
   .mainbody {
     margin-top: 280px;
   }
-  
-  .S2 img {
-    margin-left: 25%;
-    width: 40%;
-  }
   .S3 img {
     margin-left: 25%;
     width: 50%;
@@ -401,10 +416,6 @@ html body {
   .mainbody {
     margin-top: 430px;
   }
-  .S2 img {
-    width: 40%;
-    margin-left: 25%;
-  }
   .S3 img {
     width: 50%;
     margin-left: 25%;
@@ -439,10 +450,6 @@ html body {
   .mainbody {
     margin-top: 48
     0px;
-  }
-  .S2 img {
-    margin-left: 25%;
-    width: 40%;
   }
   .S3 img {
     margin-left: 25%;
