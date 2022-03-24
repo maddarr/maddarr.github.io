@@ -24,6 +24,7 @@ html body {
   height: 180px;   
   position: fixed;
   box-shadow: 15px 15px 10px rgb(17, 16, 16);
+  z-index: 10;
  }
 .heading #headingname {
   margin-right: 5%;
@@ -109,7 +110,6 @@ html body {
   margin-bottom: 2%;
   width: 30%;
 }
-* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -121,6 +121,8 @@ html body {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  padding-left: 20%;
+  z-index: 1;
 }
 
 /* Next & previous buttons */
@@ -153,21 +155,10 @@ html body {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
+  font-size: 20px;
+  padding: 2% 5%;
   bottom: 8px;
   width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 /* The dots/bullets/indicators */
