@@ -63,7 +63,7 @@ html body {
   width: 95%;
 }
 .p{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 1.2rem;
   word-spacing: 1;
@@ -73,7 +73,7 @@ html body {
 }
 .c{
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 1.2rem;
   word-spacing: 1;
@@ -280,7 +280,7 @@ html body {
   width: 95%;
 }
 .responsibilities, .summary{
-  font-family: 'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   word-spacing: 1;
@@ -306,7 +306,7 @@ html body {
   box-shadow: 15px 15px 10px rgb(17, 16, 16);
 }
 .about {
-  font-family: 'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 1.5rem;
   word-spacing: 1;
