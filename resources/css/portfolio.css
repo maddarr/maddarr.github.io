@@ -82,6 +82,10 @@ html body {
   margin-left: 15%;
   width: 60%;
 }
+
+em {
+color: #77F295;
+}
 /*SWIFT BODY OF WORK*/
 .swiftbody .h2, .p{
   margin-left: 10%;
@@ -105,9 +109,9 @@ html body {
 }
 
 /* Hide the images by default */
-.mySlides1, .mySlides2, .mySlides3 {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
   display: none;
-  padding-left: 20%;
+  padding-left: 5%;
   z-index: 1;
 }
 
