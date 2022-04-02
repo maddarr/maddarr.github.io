@@ -22,20 +22,21 @@ html body{
   z-index: 10;
  }
 .heading img {
-  margin-right: 8%;
+  margin-right: 7%;
   width: 200px;
   height: auto;
   margin-top: -5px;
   position: relative;
 }
 .heading h1 {
-  margin-left: 8%;
+  margin-left: 7%;
   min-width: 400px;
   margin-top: -2px;
   font-size: 3em;
   position: sticky;
 }
 .heading ul {
+  min-width: 300px;
   font-size: 1.2em;
   line-height: 1.2em;
   font-weight: 400;
@@ -45,6 +46,7 @@ html body{
   position: sticky;
 }
 .leftBody {
+  margin-top: 200px;
   width: 50%;
   justify-content: center;
 }
@@ -93,5 +95,44 @@ p {
   margin-top: -1%;
   padding-bottom: 10px;
 }
- 
-  
+@media(max-width: 1200px) {
+  .heading ul {
+    min-width: 300px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 400;
+    display: block;
+    margin-left: -2%;
+    margin-top: -2px;
+    position: sticky;
+  }
+  .heading h1 {
+    margin-left: -1%;
+    min-width: 400px;
+    margin-top: -2px;
+    font-size: 3em;
+    position: sticky;
+  }
+} 
+@media(max-width: 1000px) {
+  .leftBody {
+    width: 100%;
+  }
+  .heading h1 {
+    margin-left: -2%;
+    min-width: 400px;
+    margin-top: -2px;
+    font-size: 3em;
+    position: sticky;
+  }
+  .heading ul {
+    min-width: 300px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 400;
+    display: block;
+    margin-left: -3%;
+    margin-top: -2px;
+    position: sticky;
+  }
+}  
