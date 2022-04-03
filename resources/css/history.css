@@ -51,7 +51,11 @@ html body{
   font-size: 1.5rem;
   font-weight: 400;
 }
+.pagebody {
+  display: flex;
+  justify-content:space-around;
 
+}
 .leftBody {
   margin-top: 250px;
   width: 50%;
@@ -63,6 +67,16 @@ html body{
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
+}
+.rightBody {
+  width: 100%;
+  margin-top: 250px;
+  margin-right: -450px;
+}
+.rightBody h3 {
+  width: 40%;
+  justify-items: center;
+  padding-left: 100px;
 }
 
 a {
@@ -90,10 +104,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 180px;           
+  width: 107%;
+  height: 180px; 
+  margin-left: -6px;
+  position: relative;       
 }
 .foot {
   width: 70px;
@@ -110,12 +124,13 @@ p {
 } 
 @media(max-width: 1000px) {
   .leftBody {
-    width: 100%;
+    width: 60%;
+    margin-top: 310px;
+  }
+  .rightBody {
+    margin-top: 310px;
   }
   .nav #navigation {
     display: block;
-  }
-  .leftBody {
-    margin-top: 310px;
   }
 }  
