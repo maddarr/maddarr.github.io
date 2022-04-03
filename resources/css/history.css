@@ -82,13 +82,23 @@ html body{
   padding-left: 100px;
 }
 .pageBodyMid {
-  width: 100%;
   margin-left: 30px;
   display: inline-flex;
   justify-content: space-between;
   gap: 50px;
 }
-
+.pageBodyMid img {
+  width: 100%;
+}
+.pageBodyMid .pic1 {
+  display: block;
+}
+.pageBodyMid .pic2 {
+  display: block;
+}
+.pageBodyMid .pic3 {
+  display: block;
+}
 a {
   text-decoration: none;
   color: black ;
@@ -144,4 +154,5 @@ p {
   .nav #navigation {
     display: block;
   }
+  
 }  
