@@ -99,6 +99,14 @@ html body{
 .pageBodyMid .pic3 {
   display: block;
 }
+.pageBodyBricaBrac {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: black ;
