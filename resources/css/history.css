@@ -71,6 +71,26 @@ html body{
   line-height: 1.3rem;
   letter-spacing: 0.1rem;
 }
+.interior em {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.interior .logo {
+  float: right;
+}
+.interior #membersTop {
+  display: inline;
+}
+@media(max-width: 1860px) {
+  .mainContainer {
+    width: 60%;
+  }
+}
+@media(max-width: 1350px) {
+  .mainContainer {
+    width: 70%;
+  }
+}
 @media(max-width: 1200px) {
   .mainContainer {
     width: 90%;
