@@ -53,6 +53,9 @@ html body{
   justify-content: space-around;
   align-content: center;
 }
+.mainContainer #nav h4:hover {
+  color: #bcda9a;
+}
 .mainContainer #nav h4{
   color: whitesmoke;
   padding-left: 15px;
