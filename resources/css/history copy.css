@@ -1,0 +1,166 @@
+html body{
+  max-width: 2400px;
+  background-image: url(../images/History/BG.jpeg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  overflow-x: hidden;
+}
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading {
+  top: 0;
+  left: 0;
+  background-image: url(../images/History/top.jpeg);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  height: 180px;   
+  position: fixed;
+  z-index: 10;
+ }
+.heading img {
+  margin-right: 7%;
+  width: 200px;
+  margin-top: none; 
+  position: fixed;
+}
+.heading h1 {
+  margin-left: 35%;
+  min-width: 400px;
+  font-size: 3em;
+  position: relative;
+}
+.nav{
+  background-image: url(../images/History/nav.jpeg);
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.nav #navigation {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-top: 190px;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.pagebody {
+  display: flex;
+  justify-content:space-around;
+  
+}
+.leftBody {
+  margin-top: 250px;
+  width: 50%;
+  justify-content: center;
+  
+}
+#linksLeft {
+  width: 60%;
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+.rightBody {
+  width: 100%;
+  margin-top: 250px;
+  margin-right: -450px;
+}
+.rightBody h3 {
+  width: 40%;
+  justify-items: center;
+  padding-left: 100px;
+}
+.pageBodyMid {
+  margin-left: 30px;
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.pageBodyMid img {
+  width: 100%;
+}
+.pageBodyMid .pic1 {
+  display: block;
+}
+.pageBodyMid .pic2 {
+  display: block;
+}
+.pageBodyMid .pic3 {
+  display: block;
+}
+.pageBodyBricaBrac {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black ;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+em {
+  font-size: 1.5rem;
+  color: rgb(12, 12, 12);
+}
+p {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+.footer {
+  background-image: url(../images/History/bottom.jpeg);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 180px; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.foot {
+  width: 70px;
+  height: 70px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+.footname {
+  margin-top: 150px;
+  padding-bottom: 10px;
+  margin-right: 100px;
+  font-size: 0.8rem;
+} 
+@media(max-width: 1000px) {
+  .leftBody {
+    width: 60%;
+    margin-top: 310px;
+  }
+  .rightBody {
+    margin-top: 310px;
+  }
+  .nav #navigation {
+    display: block;
+  }
+  
+}  
