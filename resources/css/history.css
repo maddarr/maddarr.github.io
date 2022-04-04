@@ -21,7 +21,7 @@ html body{
   margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  height: 800px;
+  height: auto;
   width: 45%;
   -moz-box-shadow: 0 0 15px black;
   -webkit-box-shadow: 0 0 15px black;
@@ -73,12 +73,15 @@ html body{
 }
 @media(max-width: 1200px) {
   .mainContainer {
-    width: 75%;
+    width: 90%;
+  }
+  .mainContainer .heading {
+    font-size: 1.7rem;
   }
   .mainContainer #nav {
     font-size: 1.5rem;
   }
   .interior p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
