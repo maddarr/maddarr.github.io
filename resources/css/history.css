@@ -15,7 +15,7 @@ html body{
 .mainContainer {
   border: 30px solid transparent;
   border-image: url(../images/History/texture.jpeg) 20% round;
-  background-color: whitesmoke;
+  background-color: #FFFFFF;
   border-radius: 30px;
   margin-top: 75px;
   margin-bottom: 15px;
@@ -37,11 +37,10 @@ html body{
   padding-top: 3px;
   padding-bottom: 3px;
   width: 100%;
-  
   z-index: 5;
 }
 .mainContainer .navigation {
-  background-color: #A0301D;
+  background-color: #A63223;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -52,6 +51,7 @@ html body{
   font-size: 1.2rem;
   justify-content: space-around;
   align-content: center;
+  z-index: 10;
 }
 .mainContainer #nav h4:hover {
   color: #bcda9a;
@@ -60,8 +60,15 @@ html body{
   color: whitesmoke;
   padding-left: 15px;
 }
+.interior #wave {
+  margin-left: -5.6%;
+  margin-top: -15px;
+  margin-right: -10%;
+  width: 111.2%;
+  height: auto;
+}
 .mainContainer .interior {
-  background-color: whitesmoke;
+  background-color: #FFFFFF;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
@@ -81,8 +88,20 @@ html body{
 .interior .logo {
   float: right;
 }
+.interior .map img {
+  width: 40%;
+  float: right;
+}
+.interior .TT img {
+  width: 40%;
+  float: right;
+}
 .interior #membersTop {
   display: inline;
+}
+.interior #purposes {
+  display: block;
+  width: 50%;
 }
 @media(max-width: 1860px) {
   .mainContainer {
