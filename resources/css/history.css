@@ -72,10 +72,13 @@ html body{
   letter-spacing: 0.1rem;
 }
 @media(max-width: 1200px) {
-  .mainContainer .heading{
-    font-size: 1.4rem;
+  .mainContainer {
+    width: 75%;
   }
   .mainContainer #nav {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+  .interior p {
+    font-size: 1.2rem;
   }
 }
