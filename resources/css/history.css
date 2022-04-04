@@ -103,6 +103,42 @@ html body{
   display: block;
   width: 50%;
 }
+.interior.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides1{
+  display: none;
+  z-index: 10;
+}
+/* Caption text */
+.text {
+  color: black;
+  font-size: 20px;
+  bottom: 8px;
+  width: 100%;
+}
+/* Fading animation */
+.fade {
+  /*animation-name: fade;*/
+  /*animation-duration: 2.5s;*/
+  animation: fade 6s linear forwards;
+  opacity: 0;
+}
+
+@keyframes fade {
+  0% {opacity: 0; }
+  25% {opacity: 1; }
+  50% {opacity: 1; }
+  75% {opacity: 1; }
+  100% {opacity: 0 ;}
+
+  /*from {opacity: .5} 
+  to {opacity: 1}*/
+}
+
 @media(max-width: 1860px) {
   .mainContainer {
     width: 60%;
