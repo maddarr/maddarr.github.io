@@ -93,8 +93,11 @@ html body{
   float: right;
 }
 .interior .TT img {
-  width: 40%;
-  float: right;
+  width: 100%;
+}
+.interior .bbmap img {
+  width: 50%;
+  float: left;
 }
 .interior #membersTop {
   display: inline;
@@ -124,15 +127,15 @@ html body{
 .fade {
   /*animation-name: fade;*/
   /*animation-duration: 2.5s;*/
-  animation: fade 6s linear forwards;
+  animation: fade 10s linear forwards;
   opacity: 0;
 }
 
 @keyframes fade {
   0% {opacity: 0; }
-  25% {opacity: 1; }
+  10% {opacity: 1; }
   50% {opacity: 1; }
-  75% {opacity: 1; }
+  90% {opacity: 1; }
   100% {opacity: 0 ;}
 
   /*from {opacity: .5} 
