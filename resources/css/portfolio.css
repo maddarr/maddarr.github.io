@@ -109,7 +109,7 @@ color: #77F295;
 }
 
 /* Hide the images by default */
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
   display: none;
   padding-left: 5%;
   z-index: 1;

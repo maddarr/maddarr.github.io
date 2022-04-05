@@ -194,6 +194,36 @@
                 <div class="text">Evesunflower.com Landing page</div>
           </div>
         </div> <!--webbody-->
+        <div class="p port">
+          <p>SInce I had finished this and my wifes website, I then took the challange of creating a site for the non profit my mother volunteers for, the Erica and District Historical Society. </p>
+          <p>The following are images are of the most current version i have built, it still has to be completed, cretiqued and voted on as to whether it will be published but as it is still 
+            my creation it is worthy of being in my portfolio. you can visit it by  <a href="./history.html"><em>clicking here</em></a> </p>
+          <p>However I have not put a back button on it that allows you to return to my portfolio yet</p>
+        </div> <!--paragraphs for portfolio-->
+         <!-- Slideshow container # 4-->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides6 fade">
+          <img src="./resources/images/EDHS1.png" style="width:100%">
+            <div class="text">Erica & District Historical Society Landing page</div>
+      </div>
+
+      <div class="mySlides6 fade">
+          <img src="./resources/images/EDHS2.png" style="width:100%">
+            <div class="text">Erica & District Historical Society About page</div>
+      </div>
+
+      <div class="mySlides6 fade">
+          <img src="./resources/images/EDHS3.png" style="width:100%">
+            <div class="text">Erica & District Historical Society Code</div>
+      </div>
+
+      <div class="mySlides6 fade">
+          <img src="./resources/images/EDHS4.png" style="width:100%">
+            <div class="text">Erica & District Historical Society Newsletter page</div>
+      </div>
+    </div> <!--webbody-->
       </div> <!--mainbody-->
 
       <div class="footer">
@@ -284,5 +314,21 @@
                     setTimeout(showSlides5, 6000); // Change image every 6 seconds
                 }
                 </script>
+                <script>
+                  let slideIndex6 = 0;
+                  showSlides6();
+          
+                  function showSlides6() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides6");
+                    for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                  }
+                      slideIndex6++;
+                    if (slideIndex6 > slides.length) {slideIndex6 = 1} 
+                      slides[slideIndex6-1].style.display = "block"; 
+                      setTimeout(showSlides6, 6000); // Change image every 6 seconds
+                  }
+                  </script>
    </body>
   </html>    
