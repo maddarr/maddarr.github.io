@@ -116,8 +116,14 @@ html body {
   background-color: rgb(81, 83, 83, 0.4); 
 }
 .gridbody .mainbody .c{
-  background-color: transparent
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1%;
+  padding-right: 1%;
 }
+
+
 .gridbody .ph2 {
   text-align: center;
   font-size: 2rem;
@@ -132,35 +138,6 @@ html body {
   font-weight: bold;
   color:whitesmoke ;
   margin-right: 4%;
-}
-.c{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  word-spacing: 1;
-  font-weight: bold;
-  color:whitesmoke;
-  margin-left: 15%;
-  width: 60%;
-}
-
-em {
-color: #77F295;
-}
-/*SWIFT BODY OF WORK*/
-.swiftbody .h2, .p{
-  margin-left: 10%;
-  width: 80%;
-  min-width: 5%;
-  height: auto;
-}
-.S3 img {
-  display: inline;
-  margin-right: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 30%;
 }
 
 /* Slideshow container */
