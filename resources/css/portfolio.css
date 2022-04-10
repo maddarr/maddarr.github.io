@@ -112,14 +112,19 @@ html body {
     line-height: 1.5rem;
   }
 }
-.ph2 {
+.gridbody .mainbody{
+  background-color: rgb(81, 83, 83, 0.4); 
+}
+.gridbody .mainbody .c{
+  background-color: transparent
+}
+.gridbody .ph2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
-  color:rgb(62, 211, 107);
-  width: 95%;
+  color:darkred;
 }
-.p{
+.gridbody .mainbody .p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 1.2rem;
@@ -166,7 +171,7 @@ color: #77F295;
 }
 
 /* Hide the images by default */
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
+.mySlides1 {
   display: none;
   padding-left: 5%;
   z-index: 1;
@@ -176,7 +181,7 @@ color: #77F295;
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 20px;
   padding: 2% 5%;
   bottom: 8px;
@@ -200,61 +205,6 @@ color: #77F295;
 
   /*from {opacity: .5} 
   to {opacity: 1}*/
-}
-
-
-
-/*PYTHON BODY OF WORK*/
-#snaky, #weby {
- padding-top: 10%;
-}
-.S4 img {
-  display: inline;
-  margin-right: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 40%;
-}
-/*WEB DESIGN BODY OF WORK*/
-.S5 img {
-  display: inline;
-  margin-right: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 40%;
-}
-
-
-/*CERTIFICATIONS BODY OF WORK*/
-.certbody {
-  margin-top: 1%;
-  margin-left: 3%;
-  width: 100%;
-  min-width: 5%;
-  height: auto;
-}
-.C1 img {
-  display: inline;
-  margin-right: 1%;
-  margin-left: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 42%;
-}
-.C2 img {
-  display: inline;
-  margin-right: 1%;
-  margin-left: 3%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 42%;
-}
-.C3 img {
-  margin-right: 1%;
-  margin-left: 25%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 42%;
 }
 
 /*EMPLOYMENT HISTORY*/
@@ -310,13 +260,6 @@ color: #77F295;
   margin-right: 4%;
 }
 
-/* FOOTER */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 3.5rem;           
-}
 .name {
   color:#f0edce ;
 }
