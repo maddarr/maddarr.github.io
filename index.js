@@ -1,49 +1,66 @@
-function certSlides() {
-let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-let i;
-let slides = document.getElementsByClassName("mySlides2");
-  for (i = 0; i < slides.length; i++) {
-  slides[i].style.display = "none"; 
-}
-    slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 6000); // Change image every 6 seconds
-}
-}
-function certSlides2() {
+function certSlides() {
     let slideIndex = 0;
     showSlides();
     
     function showSlides() {
     let i;
-    let slides = document.getElementsByClassName("mySlides3");
+    let slides = document.getElementsByClassName("mySlides");
       for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; 
     }
         slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1} 
+      if (slideIndex > slides.length) {slideIndex = 0} 
         slides[slideIndex-1].style.display = "block"; 
         setTimeout(showSlides, 6000); // Change image every 6 seconds
     }
     }
-
-function portSlides(){
-    let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-let i;
-let slides = document.getElementsByClassName("mySlides1");
-  for (i = 0; i < slides.length; i++) {
-  slides[i].style.display = "none"; 
-}
-    slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 6000); // Change image every 6 seconds
-}
-}
+    function certSlides2() {
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides1");
+          for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+            slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 0} 
+            slides[slideIndex-1].style.display = "block"; 
+            setTimeout(showSlides, 6000); // Change image every 6 seconds
+        }
+        }
+    function certSlides3() {
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides2");
+              for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+            }
+                slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 0} 
+                slides[slideIndex-1].style.display = "block"; 
+                setTimeout(showSlides, 6000); // Change image every 6 seconds
+            }
+            }
+            function portSlides(){
+              let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides1");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+          }
+              slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1} 
+              slides[slideIndex-1].style.display = "block"; 
+              setTimeout(showSlides, 6000); // Change image every 6 seconds
+          }
+          }
+          

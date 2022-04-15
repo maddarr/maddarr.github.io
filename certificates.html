@@ -1,95 +1,210 @@
 <!DOCTYPE html>
- <html>
-   <head>
-    <title>Terry Baillie</title>
-     <link href="./resources/css/portfolio.css" type='text/css' rel="stylesheet">
-   </head>
-   <body>
-     <div class="gridbody">
-        <div class="heading">
-          <h1>Certifications </h1>
-        </div> <!--heading end-->  
-          <div class="navigation">
-            <nav class="nav">
-            <a href="./index.html"><h3>Back</h3></a>
-          </ul> <!--nav end--> 
-          </div> <!--navigation end-->
+<html>
+<head>
+    <title>Terry Baillie Certifications</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/cert.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="wrap"> <!--Start of the wrap section or Top section-->
+
+        <div class="left-frame-top"> <!--Start of the left-frame-top or Rectangles on the left-->
+            <div class="panel-1">
+                <a>
+                    <span class="hop"></span>
+                    Created By
+                    <span class="hop"></span>
+                </a>
+            </div>
+            <div class="panel-2">
+                <span class="hop">Terry Baillie 2022</span>
+            </div>
+        </div> <!--End of the left-frame-top-->
+
+        <div class="right-frame-top"> <!--Start of the right-frame-top-->
+            <div class="banner">
+            			Press to View Certifications 
+            </div>
+                      
+            <div class="data-cascade-button-group"> <!--Start of the data-cascade-button-group -->
+              <div class="button-col">
+                <div class="button" id="top-left">
+                  <a href="./index.html" class="blink-slower">home</a>
+                </div>
+                <div class="button" id="bottom-left" >
+                  <a onclick ="certSlides()">Codecademy</a>
+                </div>
+              </div>
+              <div class="button-col">
+                <div class="button" id="top-right">
+                  <a onclick="certSlides2()">Weld Inspection</a>
+                </div>
+                <div class="button" id="bottom-right">
+                  <a onclick="certSlides3()">Boilermaker & SSF</a>
+                </div>
+              </div>
+            </div><!--End of the data-cascade-button-group -->
+            
+            <div class="top-corner-bg"> <!--Start of the top-corner-bg-->
+                <div class="top-corner"></div>
+            </div> <!--End of the top-corner-bg-->
+
+            <div class="bar-panel"> <!--Start of the bar-panel or bar that goes across the bottom of Top section-->
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+            </div> <!--End of the bar-panel-->
+
+        </div> <!--End pf the right-frame-top-->
         
-        <a id="top"></a>
-      <div class="mainbody">
-            <div class="ph2">
-              <h2>Codecademy Certificates</h2>
-            </div> <!--ph2-->
-            <div class="c port">
-              <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
-              <p>Currently I am working on the Front End Engineer Career Path.</p>
-            </div> <!--paragraphs for portfolio-->
-            <div class="slideshow-container"> <!-- Slideshow container start-->
-              <div class="mySlides2 fade">
-                <div class="text">Learn The Command Line</div>
-                <img src="./resources/images/LCLine.png" style="width:100%">
-              </div>
-              <div class="mySlides2 fade">
-                <div class="text">Learn CSS- Beginner</div>
-                <img src="./resources/images/LCSS.png" style="width:100%">
-              </div>
-              <div class="mySlides2 fade">
-                <div class="text">Learn CSS - Intermediate</div> 
-                <img src="./resources/images/LCSSInter.png" style="width:100%">
-              </div>
-              <div class="mySlides2 fade">
-                <div class="text">Learn HTML</div>
-                <img src="./resources/images/LHTML.png" style="width:100%">
-              </div>
-              <div class="mySlides2 fade">
-                <div class="text">Learn Python3</div>
-                <img src="./resources/images/LP3.png" style="width:100%">
-              </div>
-              <div class="mySlides2 fade">
-                <div class="text">Learn Build a Webpage with HTML, CSS and GitHub Pages</div>
-                <img src="./resources/images/Web.jpg" style="width:100%">
-              </div>
-              <div class="mySlides2 fade">
-                <div class="text">Learn Java Script - Beginner</div>
-                <img src="./resources/images/LJS.png" style="width:100%">
-              </div>
-            </div> <!--slideshow container end-->
-          <br />
-          <div class="C2">
-            <div class="ph2">
-              <h2>Weld Inspection Certificates</h2>
-            </div> <!--ph2-->
-             <div class="c port">
-              <p>These are my Certifications that I held as a Quality Control Supervisor and Weld Inspector. Because I no longer work for the company they have not be renewed, However my quantity of hours in method stand at over 13K in Visual Inspection and over 9K in Penetrant Inspection both at Level 2.</p>
-            </div> <!--paragraphs for portfolio-->
-            <div class="slideshow-container"> <!-- Slideshow container start-->
-              <div class="mySlides3 fade">
-                <div class="text">Penetrant Testing Level II</div>
-                <img src="./resources/images/PTLVL2.jpeg" style="width:100%">
-              </div>
-              <div class="mySlides3 fade">
-                <div class="text">Visual Testing Level II</div>
-                <img src="./resources/images/VTLVL2.jpeg" style="width:100%">
-              </div>
-            </div><!--Slideshow container end-->
-          </div> <!--C2-->
-          <br />
-          <div class="C3">
-            <div class="ph2">
-              <h2>Boilermaker and SSF Certificate</h2>
-            </div> <!--ph2-->
-             <div class="c port">
-              <p>This is the certification that I completed my 4 year college Apprenticeship for Boilermaker and Structural Steel Fabrication.
-            </div> <!--paragraphs for portfolio-->
-            <img src="./resources/images/Boilermaker.jpeg" alt="Boilermaker and SSF" style="width:100%">
-          </div> <!--C3-->
-      </div> <!--mainbody-->
-      <footer>
-        <a class="foot name">&copy; Terry Baillie 2022</a>  
-      </footer> <!--footer--> 
-    </div> <!--GRIDBODY-->
-    <script src="./index.js"> </script>
-    <script>certSlides();</script>
-    <script>certSlides2();</script>
-  </body>
- </html>
+    </div> <!--End of the wrap section -->
+    
+    <div class="wrap" id="gap"> <!--Start of the wrap #gap section or Bottom section-->
+        <div class="left-frame"> <!--Start of the left-frame or Rectangles on the left-->
+            <div>
+                <div class="panel-3">
+                    01
+                    <span class="hop">-NX-01</span>
+                </div>
+                <div class="panel-4">
+                    02
+                    <span class="hop">-NCC-1701</span>
+                </div>
+                <div class="panel-5">
+                    03
+                    <span class="hop">-NCC-1701-A</span>
+                </div>
+                <div class="panel-6">
+                    04
+                    <span class="hop">-NCC-1701-B</span>
+                </div>
+                <div class="panel-7">
+                    05
+                    <span class="hop">-NCC-1701-C</span>
+                </div>
+                <div class="panel-8">
+                    06
+                    <span class="hop">-NCC-1701-D</span>
+                </div>
+                <div class="panel-9">
+                    07
+                    <span class="hop">-NCC-1701-E</span>
+                </div>
+            </div>
+            <div>
+                <div class="panel-10">
+                    08
+                    <span class="hop">-NCC-74656</span>
+                </div>
+            </div>
+        </div> <!--End of the left-frame-->
+
+        <div class="right-frame"> <!--Start of the right-frame-->
+            <div class="bar-panel"> <!--Start of the bar-panel or the bar that goes across the top of the Bottom section-->
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div> <!--End of the bar-panel-->
+
+            <div class="corner-bg"> <!--Start of the corner-bg-->
+                <div class="corner"></div>
+            </div> <!--End of the corner-bg-->
+            
+            <div class="content">
+                <h1>CERTIFICATIONS</h1>
+                
+                <div class="flexbox">
+                    <div class="col">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn The Command Line</div>
+                                <img class="border" src="./resources/images/LCLine.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn CSS Beginner</div>
+                                <img class="border" src="./resources/images/LCSS.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn CSS Intermediate</div>
+                                <img class="border" src="./resources/images/LCSSInter.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn HTML</div>
+                                <img class="border" src="./resources/images/LHTML.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn Java Script Beginner</div>
+                                <img class="border" src="./resources/images/LJS.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn Python3</div>
+                                <img class="border" src="./resources/images/LP3.png" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <p>Below are all the certifications I have currently recieved since enrolling in the pro courses at Codecademy.</p>
+                                <div class="text">Learn to make a website with HTML, CSS and GitHub Pages</div>
+                                <img class="border" src="./resources/images/Web.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides1 fade">
+                                <p>Below are the certifications I have recieved for Non-Destructive Testing, while I was a QC Supervisor.</p>
+                                <div class="text">Penetrant Testing Level II</div>
+                                <img class="border" src="./resources/images/PTLVL2.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides1 fade">
+                                <p>Below are the certifications I have recieved for Non-Destructive Testing, while I was a QC Supervisor.</p>
+                                <div class="text">Visual Testing Level II</div>
+                                <img class="border" src="./resources/images/VTLVL2.jpeg" style="width:100%">
+                            </div>
+                            <div class="mySlides2 fade" >
+                                <p>Below is my certification as a Boilermaker and Structural Steel Fabricator.</p>
+                                <div class="text">Boilermaker & SSF</div>
+                                <img class="border" src="./resources/images/Boilermaker.jpeg" style="width:100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="footer-inside">
+                        <div class="footer-text">
+                            <p>
+                                <a href=""></a>
+                                 This LCARS Inspired Website has been designed &amp; developed by 
+                                <span class="now">Terry Baillie.</span>
+                                <br>
+
+                                			2022
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="footer-panel">
+                        <span class="hop">20</span>
+                        22
+                        	
+                    </div>
+                </footer>
+                
+
+            </div>
+            <!-- /content -->
+        </div>
+        <!-- /right-frame -->
+    </div>
+    <!-- /wrap -->
+    <script src="./index.js"></script>
+</body>
+</html>
+
