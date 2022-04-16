@@ -84,13 +84,13 @@ function portSlides(){
   }
 }
 
-function USPS() {
+function E1() {
   let slideIndex = 0;
   showSlides();
             
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("USPS");
+  let slides = document.getElementsByClassName("E1");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
@@ -101,13 +101,13 @@ function USPS() {
   }
 }
 
-function LOBBS() {
+function E2() {
   let slideIndex = 0;
   showSlides();
               
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("LOBBS");
+  let slides = document.getElementsByClassName("E2");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
@@ -118,13 +118,13 @@ function LOBBS() {
   }
 }
 
-function CMI() {
+function E3() {
   let slideIndex = 0;
   showSlides();
                 
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("CMI");
+  let slides = document.getElementsByClassName("E3");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
@@ -135,13 +135,13 @@ function CMI() {
   }
 }
 
-function FSL() {
+function E4() {
   let slideIndex = 0;
   showSlides();
                   
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("FSL");
+  let slides = document.getElementsByClassName("E4");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
@@ -152,13 +152,13 @@ function FSL() {
   }
 }
 
-function LOWES() {
+function E5() {
   let slideIndex = 0;
   showSlides();
                     
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("LOWES");
+  let slides = document.getElementsByClassName("E5");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
@@ -169,13 +169,13 @@ function LOWES() {
   }
 }  
 
-function THD() {
+function E6() {
   let slideIndex = 0;
   showSlides();
                       
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("THD");
+  let slides = document.getElementsByClassName("E6");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
