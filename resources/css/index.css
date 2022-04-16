@@ -12,6 +12,7 @@ body {
   color: #F2DF6F;
   text-align: center;
 }
+
 p {
   color: #FFFFCB;
 }
@@ -73,10 +74,6 @@ p {
   padding: 82px 10px 15px 0;
   text-decoration: none;
   color: #000;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .panel-1 a:active, .panel-1 a:focus {
@@ -84,6 +81,9 @@ p {
   text-decoration: none;
   border-bottom: none;
   outline: none;
+}
+.clock, .date{
+  font-size: 2em;
 }
 
 .panel-2 {
