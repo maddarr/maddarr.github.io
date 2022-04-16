@@ -120,7 +120,7 @@ p {
 .data-cascade-button-group {
   display: flex;
   justify-content: space-around;
-  column-gap: 25px;
+  column-gap: 15px;
   
 }
 
@@ -165,14 +165,15 @@ p {
 
 .button a {
   display: block;
-  width: 200px;
-  height: 40px;
-  padding:0;
+  width: 180px;
+  height: 58px;
+  padding: 20px 25px 0 0;
   border-radius: 26px;
   background-color: #9D9DFF;
   margin: 10px;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: left;
   font-weight: bold;
   color: #000;
 }
@@ -466,22 +467,22 @@ p.postmeta {
 .blink-slower1 {
   animation: blink 5s infinite;
   animation-delay: 1s;
-  font-size: 20px;
+  font-size: 1.7rem;
 }
 .blink-slower2 {
   animation: blink 5s infinite;
   animation-delay: 1.5s;
-  font-size: 20px;
+  font-size: 1.7rem;
 }
 .blink-slower3 {
   animation: blink 5s infinite;
   animation-delay: 1.3s;
-  font-size: 20px;
+  font-size: 1.7rem;
 }
 .blink-slower4 {
   animation: blink 5s infinite;
   animation-delay: 1.9s;
-  font-size: 20px;
+  font-size: 1.7rem;
 }
 .blink {
   animation: blink 2s infinite;
