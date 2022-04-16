@@ -359,6 +359,7 @@ p {
 .content {
   padding: 0 0 25px 50px;
   background-color: #000;
+  
 }
 
 .content > * :first-child {
@@ -369,6 +370,7 @@ p {
   max-width: 100%;
   height: auto;
 }
+
 
 .flexbox {
   display: flex;
@@ -654,7 +656,7 @@ footer::after {
   background-color: #F2DF6F;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
-  font-size: .85rem;
+  font-size: .99rem;
   font-weight: bold;
   color: #000;
 }
@@ -702,7 +704,7 @@ footer::after {
   justify-content: center;
   gap: 20px;
   text-align: center;
-  font-size: .94rem;
+  font-size: 1.2rem;
   color: #FFFFCB;
 }
 

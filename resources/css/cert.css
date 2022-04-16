@@ -27,6 +27,7 @@ body {
 }
 p {
     color: #FFFFCB;
+    font-size: 1.2rem;
 }
 a {
     color: #c3f;
@@ -78,13 +79,13 @@ a {
     flex-direction: column;
     justify-content: space-between;
     padding-top: 90px;
-    background-color: #CF6262;
+    background-color: #99CDFF;
     border-radius: 100px 0 0 0;
 }
 
 .panel-1 a {
     display: block;
-    background-color: #CF6262;
+    background-color: #99CDFF;
     padding: 82px 10px 15px 0;
     text-decoration: none;
     color: #000;
@@ -200,7 +201,7 @@ a {
 }
 
 .button#bottom-left a {
-    background-color: #CF6262;
+    background-color: #99CDFF;
 }
 
 .button#top-right a {
@@ -287,12 +288,12 @@ a {
 
 .bar-5 {
     width: 50px;
-    background-color: #CF6262;
+    background-color: #99CDFF;
 }
 
 .bar-6 {
     width: 433px;
-    background-color: #CF6262;
+    background-color: #99CDFF;
 }
 
 .bar-7 {
@@ -303,7 +304,7 @@ a {
 .bar-8 {
     width: 200px;
     height: 11px;
-    background-color: #CF6262;
+    background-color: #99CDFF;
 }
 
 .bar-9 {
@@ -326,12 +327,12 @@ a {
 
 .panel-3 {
     padding: 0 10px 15px 0;
-    background-color: #CF6262;
+    background-color: #99CDFF;
 }
 
 .panel-4 {
     padding: 180px 10px 15px 0;
-    background-color: #CF6262;
+    background-color: #99CDFF;
 }
 
 .panel-5 {
@@ -373,7 +374,7 @@ a {
 .corner-bg {
     width: 40px;
     height: 40px;
-    background: linear-gradient(to bottom right, #CF6262 50%, #000 50%);
+    background: linear-gradient(to bottom right, #99CDFF 50%, #000 50%);
 }
 
 .corner {
@@ -391,6 +392,9 @@ a {
 .content > * :first-child {
     margin-top: 0;
 }
+.content h1 {
+    color: #FFFFCB;
+  }
 
 .content img {
     max-width: 100%;
@@ -422,7 +426,7 @@ a {
     text-align: center;
     color: #FFFFCB;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
     bottom: 8px;
     width: 100%;
@@ -663,7 +667,7 @@ footer {
     bottom: 0;
     margin: 50px auto 0 auto;
     padding: 12px 0;
-    background: linear-gradient(#99CDFF 50%, #CF6262 50%);
+    background: linear-gradient(#F2DF6F 50%, #99CDFF 50%);
     border-radius: 0 20px 20px 0;
     overflow: hidden;
     position: relative;
@@ -700,7 +704,7 @@ footer::after {
     height: 100px;
     margin: auto;
     padding: 10px 0 0 1%;
-    background-color: #F2DF6F;
+    background-color: #9D9DFF;
     border-top: 5px solid #000;
     border-bottom: 5px solid #000;
     font-size: .85rem;
@@ -732,7 +736,7 @@ footer::after {
 
 .footer-inside::after {
     content: '';
-    background-color: #CF6262;
+    background-color: #99CDFF;
     display: block;
     width: 15%;
     min-width: 60px;
@@ -751,7 +755,7 @@ footer::after {
     justify-content: center;
     gap: 20px;
     text-align: center;
-    font-size: .94rem;
+    font-size: 1.2rem;
     color: #FFFFCB;
 }
 
