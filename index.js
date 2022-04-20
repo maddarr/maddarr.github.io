@@ -5,15 +5,23 @@ setInterval(()=> {
   let today = new Date();
   let hh = today.getHours();
   let mm = today.getMinutes();
-  let ss = today.getSeconds();
   let date = today.toDateString();
 
-  c.innerText = `${padding(hh)} : ${padding(mm)} : ${padding(ss)}`;
+  c.innerText = `${padding(hh)} : ${padding(mm)}`;
   d.innerText = date;
 }, 1000);
 function padding(n) {
   return n.toString().padStart(2, "0");
 }
+}
+
+function theButtons() {
+  $(document).ready(function () {
+    ($(".btn").click(function () {
+        $("#" + this.id).prop('disabled', true);
+        $(".btn").not(this).prop('disabled', false);
+    }));
+});
 }
 
 function certSlides() {
@@ -73,7 +81,7 @@ function portSlides(){
           
   function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides1");
+  let slides = document.getElementsByClassName("mySlides3");
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
@@ -84,20 +92,23 @@ function portSlides(){
   }
 }
 
+
 function E1() {
   let slideIndex = 0;
   showSlides();
-            
+  
+
   function showSlides() {
   let i;
   let slides = document.getElementsByClassName("E1");
+
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
   }
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 0} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 10 seconds
+    setTimeout(showSlides, 20000); // Change image every 20 seconds
   }
 }
 
@@ -114,7 +125,7 @@ function E2() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 0} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 10 seconds
+    setTimeout(showSlides, 20000); // Change image every 20 seconds
   }
 }
 
