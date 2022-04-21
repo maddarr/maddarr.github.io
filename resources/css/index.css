@@ -13,6 +13,15 @@ body {
 }
 
 /*LANDING BOX*/
+@media (max-width: 1000px) {
+ .landing-box-back, .landing-box-front {
+   height: 2200px;
+ }
+ .landing-content-inside{
+   height: 1900px;
+ }
+}
+
 .landing-box-back {
   margin-left: auto;
   margin-right: auto;
