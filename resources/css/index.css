@@ -134,7 +134,7 @@ body {
   margin: 0;
 }
 .landing-button-box{
-  width: 280px;
+  width: 310px;
   display: flex;
   bottom: 0;
   margin: 10px auto 20px auto;
@@ -147,10 +147,10 @@ body {
 }
 
 .landing-button-panel {
-  max-width: 45px;
+  width: 55px;
   height: 30px;
   margin: auto;
-  padding: 10px 0 0 1%;
+  padding: 10px 0 0 2%;
   background-color: #8c8b85;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
@@ -162,6 +162,7 @@ body {
 .landing-button-inside {
   flex: 1;
   margin-left: 2%;
+  margin-right: auto;
   height: 20px;
   background-color: rgb(9, 9, 9);
   border-radius: 20px 20px 20px 20px;
@@ -405,7 +406,7 @@ body {
   z-index: 1;
 }
 .cert-banner-inside {
-  display: block;
+  display:flex;
   flex: 1;
   margin-left: 5%;
   margin-right: 2%;
@@ -416,6 +417,27 @@ body {
   padding: 2rem 1rem 0 1rem;
   z-index: 12;
   margin-top: 2px;
+}
+.cert-back {
+  width: 100px;
+  height: 50px;
+  border-radius: 22px;
+  margin-top: -7px;
+  background-color: #758594;
+}
+.cert-back a{
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+.cert-heading h3 {
+  margin-top: -10px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: clamp(1.5rem, 1.5rem + 3.6vw, 3.3rem);
+  font-weight: bold;
+  color: moccasin;
 }
 .cert-bar-top {
   width: auto;
@@ -457,13 +479,6 @@ body {
   margin-right: auto;
 }
 
-.cert-banner-inside h1 {
-  margin-top: -20px;
-  text-align: center;
-  font-size: clamp(1.5rem, 1.5rem + 3.6vw, 3.3rem);
-  font-weight: bold;
-  color: moccasin;
-}
 .cert-content-box-in{
   width: 100%;
   display: flex;
@@ -493,17 +508,18 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -5px;
+  margin-top: -10px;
 
 }
 .CC, .QC, .BM{
-  width: 160px;
+  width: 210px;
   height: 50px;
   border-radius: 20px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 1px 70px;
-  font-weight: 700;
-  
+  color: black;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
 }
 .CC{
   background-color:#FFFF33 ;
@@ -690,7 +706,7 @@ body {
   z-index: 1;
 }
 .port-banner-inside {
-  display: block;
+  display: flex;
   flex: 1;
   margin-left: 5%;
   margin-right: 2%;
@@ -702,6 +718,29 @@ body {
   z-index: 12;
   margin-top: 2px;
 }
+
+.port-back {
+  width: 100px;
+  height: 50px;
+  border-radius: 22px;
+  margin-top: -7px;
+  background-color: #758594;
+}
+.port-back a{
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+.port-heading h3 {
+  margin-top: -10px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: clamp(1.5rem, 1.5rem + 3.6vw, 3.3rem);
+  font-weight: bold;
+  color: moccasin;
+}
+
 .port-bar-top {
   width: auto;
   margin-left: 12px;
@@ -884,15 +923,29 @@ body {
   width: 80%;
   display: inline-block;
   justify-content: space-between;
-  background-color:rgba(245, 249, 247, 0.362);
+  background-color:rgba(242, 246, 245, 0.999);
   border-radius: 25px;
 }
 .contact-about-heading h3 {
   margin-top: 40px;
   font-size: 3.1rem;
   font-weight: 700;
-  color: #5bae5b;
+  color: black;
 }
+.contact-back {
+  width: 100px;
+  height: 53px;
+  border-radius: 20px;
+  background-color: #758594;
+  margin-top: 7px;
+}
+.contact-back a{
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+}
+
 .contact.buttons {
   width: 100%;
   height: 30%;
@@ -908,7 +961,7 @@ body {
   border-radius: 20px;
   font-size: 1.2rem;
   margin: 1px 70px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .EM{
   width: 160px;
@@ -919,8 +972,17 @@ body {
   font-weight: 700;
 }
 .EM, .FB, .IN {
-  background-color:#454f59 ;
-  color: whitesmoke;
+  background-color:#758594 ;
+  
+}
+.IN a {
+  color: black;
+}
+.FB a {
+  color: black;
+}
+.EM a {
+  color: black;
 }
 .FB img {
   float: left;
@@ -934,11 +996,11 @@ body {
   text-align: left;
   margin-top: 40px;
   margin-left: 20px;
-  font-size: 1rem;
-  line-height: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
   letter-spacing: 0.1rem;
-  color: #b5b890;
+  color: black;
 }
 .contact-about-text em {
-  color: #9D9DFF;
+  color: #1a6f07;
 }
