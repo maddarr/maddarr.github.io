@@ -187,10 +187,10 @@ body {
 
 @media (max-width: 1200px) {
   .landing-box-back, .landing-box-front {
-    height: 2200px;
+    height: 2000px;
   }
   .landing-content-inside{
-    height: 1800px;
+    height: 1600px;
   }
   .landing-content-text p {
     font-size: clamp(1.8rem, .9rem + 3.6vw, 2.1rem);
