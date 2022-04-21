@@ -347,6 +347,23 @@ body {
   font-size: 1rem;
   letter-spacing: 0.1;
 }
+@media (max-width: 1200px) {
+  .employment-box-back, .employment-box-front {
+    height: 1800px;
+  }
+  .employment-content-inside{
+    height: 1400px;
+  }
+  .employment-text p {
+    font-size: clamp(1.8rem, .9rem + 3.6vw, 2.1rem);
+  }
+  .employment-content-text h1 {
+    font-size: clamp(1.3rem, 1.5rem + 3.6vw, 4.3rem);
+  }
+  .employment-button-text a {
+    font-size: 1.6rem;
+  }
+ }
 
 /*/////////////////////////////////////////////////////////////////////////////*/
 
