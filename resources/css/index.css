@@ -13,14 +13,6 @@ body {
 }
 
 /*LANDING BOX*/
-@media (max-width: 1000px) {
- .landing-box-back, .landing-box-front {
-   height: 2200px;
- }
- .landing-content-inside{
-   height: 1900px;
- }
-}
 
 .landing-box-back {
   margin-left: auto;
@@ -192,6 +184,15 @@ body {
   font-size: 1.2rem;
   color: #f8f8f3;
 }
+
+@media (max-width: 1000px) {
+  .landing-box-back, .landing-box-front {
+    height: 2200px;
+  }
+  .landing-content-inside{
+    height: 1900px;
+  }
+ }
 
 /* ////////////////////////////////////////////////////////////////////*/
 
