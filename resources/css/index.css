@@ -198,6 +198,10 @@ body {
   .clock, .date{
     font-size: 1.5rem;
   }
+  .landing-button-box{
+    width: 410px;
+    margin: 50px auto 50px auto;
+  }
   .landing-content-text h1 {
     font-size: clamp(1.3rem, 1.5rem + 3.6vw, 4.3rem);
   }
@@ -237,16 +241,28 @@ body {
   z-index: 0;
 }
 .banner {
-  display: block;
+  display: flex;
 }
 .employment-back {
+  width: 100px;
+  height: 50px;
+  border-radius: 22px;
   margin-top: 10px;
+  background-color: #758594;
+}
+.employment-back a{
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
 }
 .employment-heading {
   width: 100%;
   margin-top: -45px;
+  margin-left: 30px;
+  margin-right: auto;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   line-height: 1.2;
   color: rgb(233, 223, 223);
@@ -278,6 +294,7 @@ body {
   border-radius: 25px;
   height: 550px;
   overflow: hidden;
+  background-color: rgba(19, 18, 18, 0.726);
 }
 .employment-button-box{
   width: 400px;
@@ -352,9 +369,21 @@ body {
     height: 1800px;
   }
   .employment-content-right{
-    height: 1100px;
+    height: 1050px;
+    width: 85%;
   }
-  
+  .employment-button-box{
+    width: 600px;
+  }
+  .employment-button-inside {
+   height: 30px;
+  }
+  .employment-button-text {
+    min-height: 40px;
+  }
+  .employment-button-text a{
+    font-size: 1.3rem;
+  }
  }
 
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -632,7 +661,15 @@ body {
 .cert-slides h2 {
   color: #FFFFCB;
 }
-
+.mySlides img {
+  width: 80%;
+}
+.mySlides1 img {
+  width: 45%;
+}
+.mySlides2 img {
+  width: 45%;
+}
 
 .fade {
   /*animation-name: fade;*/
@@ -665,6 +702,19 @@ body {
   }
   .cert-content-text-bottom {
     height: 1200px;
+  }
+  .cert-content-panel, .cert-content-panel1, .cert-content-panel2 {
+    width: 180px;
+    font-size: 1.3rem;
+  }
+  .mySlides img {
+    width: 100%;
+  }
+  .mySlides1 img {
+    width: 100%;
+  }
+  .mySlides2 img {
+    width: 100%;
   }
  }
 
@@ -932,6 +982,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.mySlides3 img {
+  width: 47%;
+}
 .port-slides h2 {
   color: #FFFFCB;
 }
@@ -951,8 +1004,26 @@ body {
   .port-content-inside{
     height: 1600px;
   }
+  .port-banner-inside {
+    height: 120px;
+  }
+  .port-content-text-in {
+    height: 260px;
+  }
+  .port-content-text-in p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+  }
   .port-content-text-bottom {
-    height: 1200px;
+    height: 1000px;
+  }
+  .port-content-panel, .port-content-panel1, .port-content-panel2 {
+    width: 180px;
+    font-size: 1.3rem;
+  }
+  .mySlides3 img {
+    width: 100%;
   }
  }
 
@@ -1039,6 +1110,7 @@ body {
 .FB img {
   float: left;
   width: 35px;
+  border-radius: 7px;
 }
 .IN img {
   float: left;
@@ -1059,5 +1131,9 @@ body {
 @media (max-width: 1200px) {
   .contact-box {
     height: 1800px;
+  }
+  .contact-about-text {
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
   }
  }
