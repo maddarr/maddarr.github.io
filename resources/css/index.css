@@ -192,6 +192,13 @@ body {
   .landing-content-inside{
     height: 2000px;
   }
+  .landing-content-text p {
+    font-size: clamp(1.8rem, .9rem + 3.6vw, 2.1rem);
+  }
+  .clock, .date{
+    font-size: 1.4rem;
+  }
+
  }
 
 /* ////////////////////////////////////////////////////////////////////*/
