@@ -697,15 +697,27 @@ body {
   .cert-box-back {
     height: 1800px;
   }
+ 
   .cert-content-inside{
     height: 1600px;
   }
-  .cert-content-text-bottom {
-    height: 1200px;
+  .cert-content-text-in {
+    height: 200px;
+    
   }
-  .cert-content-panel, .cert-content-panel1, .cert-content-panel2 {
+  .CC, .QC, .BM{
+    margin: 10px 70px;
+  }
+  .cert-content-text-bottom {
+    height: 1120px;
+  }
+  .cert-content-panel1, .cert-content-panel2 {
     width: 180px;
     font-size: 1.3rem;
+  }
+  .cert-content-panel{
+    width: 8px;
+    font-size: 0;
   }
   .mySlides img {
     width: 100%;
@@ -1004,6 +1016,10 @@ body {
   .port-content-inside{
     height: 1600px;
   }
+  .port-content-panel{
+    width: 8px;
+    font-size: 0;
+  }
   .port-banner-inside {
     height: 120px;
   }
@@ -1012,13 +1028,13 @@ body {
   }
   .port-content-text-in p {
     font-size: 1.2rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     letter-spacing: 0.1rem;
   }
   .port-content-text-bottom {
     height: 1000px;
   }
-  .port-content-panel, .port-content-panel1, .port-content-panel2 {
+  .port-content-panel1, .port-content-panel2 {
     width: 180px;
     font-size: 1.3rem;
   }
