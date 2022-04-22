@@ -240,6 +240,44 @@ body {
   background-size: cover;
   z-index: 0;
 }
+.emp-content-box{
+  width: 95%;
+  display: flex;
+  margin: 30px auto 30px auto;
+  padding: 12px 0;
+  background: linear-gradient(#454f59 50%, #6b6954 50%);
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.emp-content-panel {
+  max-width: 200px;
+  height: 100px;
+  margin: auto;
+  padding: 10px 0 0 1%;
+  background-color: #8c8b85;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  font-size: .99rem;
+  font-weight: bold;
+  color: #000;
+}
+.emp-content-panel p{
+  margin-right: 10px;
+  text-align: center;
+}
+.emp-content-inside {
+  flex: 1;
+  margin-left: 2%;
+  height: 1200px;
+  background-color: rgb(21, 22, 26);
+  border-radius: 20px 20px 20px 20px;
+  padding: 1.5rem 1rem;
+  z-index: 2;
+}
+
 .banner {
   display: flex;
 }
@@ -265,7 +303,7 @@ body {
   text-align: left;
   text-transform: uppercase;
   line-height: 1.2;
-  color: rgb(233, 223, 223);
+  color: moccasin;
 }
 .employment-heading h3 {
   font-size: clamp(1.5rem, 1.5rem + 3.6vw, 3.3rem);
@@ -368,9 +406,18 @@ body {
   .employment-box-back, .employment-box-front {
     height: 1800px;
   }
+  .banner {
+    height: 180px;
+  }
   .employment-content-right{
-    height: 1050px;
+    height: 930px;
     width: 85%;
+  }
+  .emp-content-box {
+    height: 1800px;
+  }
+  .emp-content-inside {
+    height: 1730px;
   }
   .employment-button-box{
     width: 600px;
@@ -459,7 +506,7 @@ body {
   display: flex;
   margin: -20px 2px 0 -4px;
   padding: 12px 0;
-  background: linear-gradient(#53718f 50%, #5e959a 50%);
+  background: linear-gradient(#53718f 50%, #687c7e 50%);
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   position: relative;
@@ -516,25 +563,25 @@ body {
 .bar-top-1 {
   margin-left: -15px;
   width: 20%;
-  background-color: #5e959a;
+  background-color: #687c7e;
   border-radius: 0 0 0 22px;
 }
 .bar-top-2 {
   width: 92px;
-  background-color: #99CDFF;
+  background-color: #e4dd90;
 }
 .bar-top-3 {
   width: 30%;
-  background-color: #FFFFCB;
+  background-color: #d6b9a8;
 }
 .bar-top-4 {
   width: 35%;
-  background-color: #9D9DFF;
+  background-color: #afafd2;
 }
 
 .bar-top-5 {
   width: 30%;
-  background-color: #99CDFF;
+  background-color: #687c7e;
   border-radius: 0 0 22px 0;
   margin-right: auto;
 }
@@ -544,7 +591,7 @@ body {
   display: flex;
   margin: 5px auto 0 auto;
   padding: 12px 0;
-  background: linear-gradient(#FFFFCB 50%, #99CDFF 50%);
+  background: linear-gradient(#e6e2b1 50%, #b1cce6 50%);
   border-radius: 20px 20px 20px 20px;
   overflow: hidden;
   position: relative;
@@ -582,21 +629,21 @@ body {
   font-weight: 600;
 }
 .CC{
-  background-color:#FFFF33 ;
+  background-color:#e4dd90 ;
   
 }
 .QC {
-  background-color: #D05F5F;
+  background-color: #9f6868;
 }
 .BM {
-  background-color:#FF99CD ;
+  background-color:#a1597e ;
 }
 .cert-content-panel1 {
   max-width: 200px;
   height: 100px;
   margin: auto;
   padding: 10px 0 0 1%;
-  background-color: #9D9DFF;
+  background-color: #afafd2;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
   font-size: .99rem;
@@ -612,7 +659,7 @@ body {
   display: flex;
   margin: 5px auto 0 auto;
   padding: 12px 0;
-  background: linear-gradient(#FFCF7B 50%, #9D9DFF 50%);
+  background: linear-gradient(#cdb181 50%, #afafd2 50%);
   border-radius: 20px 20px 20px 20px;
   overflow: hidden;
   position: relative;
@@ -805,7 +852,7 @@ body {
   display: flex;
   margin: -20px 2px 0 -4px;
   padding: 12px 0;
-  background: linear-gradient(#53718f 50%, #5e959a 50%);
+  background: linear-gradient(#53718f 50%, #687c7e 50%);
   border-radius: 20px 20px 0 0;
   overflow: hidden;
   position: relative;
@@ -864,25 +911,25 @@ body {
 .bar-top-1 {
   margin-left: -15px;
   width: 20%;
-  background-color: #5e959a;
+  background-color: #687c7e;
   border-radius: 0 0 0 22px;
 }
 .bar-top-2 {
   width: 92px;
-  background-color: #99CDFF;
+  background-color: #e4dd90;
 }
 .bar-top-3 {
   width: 30%;
-  background-color: #FFFFCB;
+  background-color: #b1cce6;
 }
 .bar-top-4 {
   width: 35%;
-  background-color: #9D9DFF;
+  background-color: #afafd2;
 }
 
 .bar-top-5 {
   width: 30%;
-  background-color: #99CDFF;
+  background-color: #687c7e;
   border-radius: 0 0 22px 0;
   margin-right: auto;
 }
@@ -899,7 +946,7 @@ body {
   display: flex;
   margin: 5px auto 0 auto;
   padding: 12px 0;
-  background: linear-gradient(#FFFFCB 50%, #99CDFF 50%);
+  background: linear-gradient(#e6e2b1 50%, #b1cce6 50%);
   border-radius: 20px 20px 20px 20px;
   overflow: hidden;
   position: relative;
@@ -933,7 +980,7 @@ body {
   height: 100px;
   margin: auto;
   padding: 10px 0 0 1%;
-  background-color: #9D9DFF;
+  background-color: #afafd2;
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
   font-size: .99rem;
@@ -949,7 +996,7 @@ body {
   display: flex;
   margin: 5px auto 0 auto;
   padding: 12px 0;
-  background: linear-gradient(#FFCF7B 50%, #9D9DFF 50%);
+  background: linear-gradient(#cdb181 50%, #afafd2 50%);
   border-radius: 20px 20px 20px 20px;
   overflow: hidden;
   position: relative;
@@ -1059,7 +1106,43 @@ body {
   background-size: cover;
   z-index: 0;
 }
+.cont-box{
+  width: 95%;
+  display: flex;
+  margin: 30px auto 30px auto;
+  padding: 12px 0;
+  background: linear-gradient(#454f59 50%, #6b6954 50%);
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.cont-box-panel {
+  max-width: 200px;
+  height: 100px;
+  margin: auto;
+  padding: 10px 0 0 1%;
+  background-color: #8c8b85;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  font-size: .99rem;
+  font-weight: bold;
+  color: #000;
+}
+.cont-box-panel p{
+  margin-right: 10px;
+  text-align: center;
+}
+
 .contact-box-in {
+  flex: 1;
+  margin-left: 2%;
+  height: 1050px;
+  background-color: #000;
+  border-radius: 20px 20px 20px 20px;
+  padding: 1.5rem 1rem;
+  z-index: 2;
   width: 80%;
   display: inline-block;
   justify-content: space-between;
@@ -1083,7 +1166,7 @@ body {
   color: black;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .contact.buttons {
@@ -1134,7 +1217,7 @@ body {
   width: 35px;
 }
 .contact-about-text {
-  text-align: left;
+  text-align: start;
   margin-top: 40px;
   margin-left: 20px;
   font-size: 1.2rem;
@@ -1148,6 +1231,12 @@ body {
 @media (max-width: 1200px) {
   .contact-box {
     height: 1800px;
+  }
+  .cont-box {
+    height: 1250px;
+  }
+  .contact-box-in {
+    height: 1200px;
   }
   .contact-about-text {
     line-height: 1.5rem;
