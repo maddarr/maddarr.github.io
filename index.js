@@ -1,3 +1,4 @@
+
 function theClock() {
 let c = document.querySelector(".clock");
 let d = document.querySelector(".date")
@@ -93,23 +94,26 @@ function portSlides(){
 }
 
 
+
+
 function E1() {
   let slideIndex = 0;
+ 
+  
   showSlides();
   
-
   function showSlides() {
   let i;
   let slides = document.getElementsByClassName("E1");
 
     for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none"; 
-  }
+    }
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 0} 
     slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 20 seconds
-  }
+    setTimeout(showSlides, 20000);
+}
 }
 
 function E2() {
