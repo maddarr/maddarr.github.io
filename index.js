@@ -1,4 +1,5 @@
 
+
 function theClock() {
 let c = document.querySelector(".clock");
 let d = document.querySelector(".date")
@@ -93,111 +94,52 @@ function portSlides(){
   }
 }
 
-
-
-
 function E1() {
-  let slideIndex = 0;
- 
-  
-  showSlides();
-  
-  function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("E1");
-
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 0} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000);
+  var B1 = document.getElementById("E1");
+  if (B1.style.height === "2px") {
+  B1.style.height = "1800px";
+  } else {
+    B1.style.height = "2px";
+  };
 }
-}
-
 function E2() {
-  let slideIndex = 0;
-  showSlides();
-              
-  function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("E2");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 0} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 20 seconds
-  }
+  var B1 = document.getElementById("E2")
+  if (B1.style.height === "2px") {
+  B1.style.height = "1800px";
+  } else {
+    B1.style.height = "2px";
+  };
 }
-
 function E3() {
-  let slideIndex = 0;
-  showSlides();
-                
-  function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("E3");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 0} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 10 seconds
-  }
+  var B1 = document.getElementById("E3")
+  if (B1.style.height === "2px") {
+  B1.style.height = "1800px";
+  } else {
+    B1.style.height = "2px";
+  };
 }
-
 function E4() {
-  let slideIndex = 0;
-  showSlides();
-                  
-  function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("E4");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 0} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 10 seconds
-  }
+  var B1 = document.getElementById("E4")
+  if (B1.style.height === "2px") {
+  B1.style.height = "1800px";
+  } else {
+    B1.style.height = "2px";
+  };
 }
-
 function E5() {
-  let slideIndex = 0;
-  showSlides();
-                    
-  function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("E5");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 0} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 10 seconds
-  }
-}  
-
+  var B1 = document.getElementById("E5")
+  if (B1.style.height === "2px") {
+  B1.style.height = "1800px";
+  } else {
+    B1.style.height = "2px";
+  };
+}
 function E6() {
-  let slideIndex = 0;
-  showSlides();
-                      
-  function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("E6");
-    for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 0} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides, 20000); // Change image every 10 seconds
-  }
-}      
-    
+  var B1 = document.getElementById("E6")
+  if (B1.style.height === "2px") {
+  B1.style.height = "1800px";
+  } else {
+    B1.style.height = "2px";
+  };
+}
+   
