@@ -34,6 +34,7 @@ function Slides(choice) {
   }
 }
 
+
 function Slides1(choice){
   let slideIndex = 0;
   showSlides();
