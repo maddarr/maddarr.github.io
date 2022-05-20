@@ -14,11 +14,16 @@
 	margin: 0;
 	padding: 0;
 }
+.certification-box {
+	width: 100vw;
+	height: 100vh;
+
+}
 .cert-content-box{
 	width: 750px;
 	height: 1100px;
 	display: flex;
-	margin: 50px auto;
+	margin: 20px auto;
 	padding: 12px 0;
 	background: linear-gradient(#454f59 50%, #6b6954 50%);
 	border-radius: 20px;
@@ -28,7 +33,7 @@
   
 .cert-content-panel {
 	max-width: 150px;
-	height: 100px;
+	height: 200px;
 	margin: auto;
 	padding: 10px;
 	background-color: #8c8b85;

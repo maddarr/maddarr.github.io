@@ -15,11 +15,17 @@
 	margin: 0;
 	padding: 0;
 }
+.main-container {
+	width: 100vw;
+	height: 100vh;
+}
   .cont-box{
-	width: 750px;
+	width: 700px;
 	height: 1100px;
 	display: flex;
-	margin: 50px auto;
+	margin-top: 20px;
+  	margin-left: auto;
+  	margin-right: auto;
 	padding: 12px 0;
 	background: linear-gradient(#454f59 50%, #6b6954 50%);
 	border-radius: 20px;
@@ -27,37 +33,33 @@
 	position: relative;
   }
   
-  .cont-box-panel {
-	max-width: 100px;
-	height: 100px;
-	margin: auto;
-	background-color: #8c8b85;
-	border-top: 5px solid #000;
-	border-bottom: 5px solid #000;
-	font-size: 1rem;
-	font-weight: bold;
-	color: #000;
-  }
-  .cont-box-panel p{
-	margin-right: 10px;
-	text-align: center;
-  }
+.cont-box-panel {
+	width: 150px;
+  	height: 300px;
+  	margin: auto;
+  	padding-top: 10px;
+  	background-color: #8c8b85;
+  	border-top: 5px solid #000;
+  	border-bottom: 5px solid #000;
+}
   
   .contact-box-in {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	margin-left: 10px;
-	height: 1070px;
+	width: 92%;
+	margin-top:20px;
+	margin-left: 20px;
+	height: 1050px;
 	background-color: #000;
 	border-radius: 20px;
 	padding: 1.5rem 0;
-	width: 102%;
+	
 }
 .title {
 	margin-left: auto;
 	margin-right: auto;
-	width: 95%;
+	width: 85%;
 	height: 80px;
 	display: flex;
 	flex-direction: row;
@@ -86,12 +88,12 @@
 	height: 80px;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 	
 }
 .c-button {
 	width: 215px;
 	height: 60px;
-	margin-left: 10px;
 	margin-top: 30px;
 	background-image: url(../images/smallbutton.png);
 	border-radius: 30px;
@@ -131,6 +133,7 @@
 	text-align: start;
 	margin-top: 40px;
 	margin-left: 20px;
+	margin-right: 10px;
 	font-size: 1.2rem;
 	line-height: 1.4rem;
 	letter-spacing: 0.15rem;
