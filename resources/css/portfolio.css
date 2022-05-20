@@ -54,25 +54,23 @@
 	margin-top: -20px;
 	margin-left: auto;
 	margin-right: auto;
-	
 	background: linear-gradient(#53718f 50%, #687c7e 50%);
 	border-radius: 20px 20px 0 0;
 	overflow: hidden;
 	position: relative;
 }
 .port-banner-inside {
-	margin: 10px auto;
-	width: 95%;
-	height: 100px;
 	display: flex;
-	flex-direction: row;
-	background-color: black;
-	border-radius: 20px;	
+	flex: 1;
+	width: 95%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: 110px;
+	background-color: #000;
+	border-radius: 20px;
+	padding: 1.5rem 1rem;
 }
 .port-back {
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: 10px;
 	width: 100px;
 	height: 50px;
 	border-radius: 22px;
@@ -80,12 +78,6 @@
 	font-size: 1.2rem;
 	font-weight: 600;
 	text-align: center;
-}
-.port-back a{
-	color: black;
-	font-size: 1.2rem;
-	letter-spacing: 0.2rem;
-	font-weight: 600;
 }
 .port-heading {
 	width: 700px;
