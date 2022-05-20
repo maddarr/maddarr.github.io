@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GameTwo</title>
+	<link rel='stylesheet' href='./gameTwo.css' />
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<a id="trek"></a>
+			<h1 id="star">Star Trek mini game</h1>
+		</div>
+		<div id="game" class="justify-center flex-column">
+			<div id="hud">
+				<div id="hud-item-score">
+					<a id = "score-panel"></a>
+					<p class="hud-prefix-score">Score</p>
+					<h1 class="hud-main-text-score" id="score-text">0</h1>
+				</div>
+				<div id="hud-item-progress">
+					<a id="prefix-progress"></a>
+					<p id="progressText" class="hud-prefix-progress">Question</p>
+					<div id="progressBar">
+						<div id="progressBarFull"></div>
+					</div>
+				</div>
+			</div>
+			<div class="separator-bar-one">
+				<a id="P1"></a>
+				<a id="P2"></a>
+				<a id="P3"></a>
+				<a id="P4"></a>
+				<a id="P5"></a>
+				<a id="P6"></a>
+				<a id="P7"></a>
+			</div>
+			
+			<div class="separator-bar-two">
+				<a id="P8"></a>
+				<a id="P2"></a>
+				<a id="P3"></a>
+				<a id="P4"></a>
+				<a id="P5"></a>
+				<a id="P6"></a>
+				<a id="P7"></a>
+			</div>
+			<div class="question-container">
+				<a id="side1"></a>
+				<h2 id="question">What is the answer to this question?</h2>
+			</div>
+			<div class="answer-container">
+				<div class="choice-container">
+					<img src="./Q1.png" />
+					<p class="choice-prefix">A</p>
+					<p class="choice-text" id="Q1" data-number="1">Choice 1</p>
+				</div>
+				<div class="choice-container">
+					<img src="./Q2.png" />
+					<p class="choice-prefix">B</p>
+					<p class="choice-text" id="Q2" data-number="2">Choice 2</p>
+				</div>
+				<div class="choice-container">
+					<img src="./Q3.png" />
+					<p class="choice-prefix">C</p>
+					<p class="choice-text" id="Q3" data-number="3">Choice 3</p>
+				</div>
+				<div class="choice-container">
+					<img src="./Q4.png" />
+					<p class="choice-prefix">D</p>
+					<p class="choice-text" id="Q4" data-number="4">Choice 4</p>
+				</div>
+			</div>		
+		</div>
+		<div id="ships-top">
+			<a id="P9"></a>
+			<a id="P10"></a>
+			<a id="P11"></a>
+			<a id="P12"></a>
+		</div>
+		<div class="ships">
+			<div id="ships-inner">
+				<div class="enemy">
+					<img src="./enemy.png"/>
+				</div>
+				<div class="yours">
+					<img src="./yours.png"/>
+				</div>
+			</div>
+		</div>
+		<div id="ships-bottom">
+			<a id="P13">By Terry Baillie</a>
+		</div>
+	</div>
+<script src="./gameTwo.js"></script>
+<script src="./highScores.js"></script>		
+</body>
+</html>

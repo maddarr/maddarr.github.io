@@ -1,0 +1,148 @@
+:root {
+	background-image: url(./stars.png);
+	background-repeat: no-repeat; 
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+	font-size: 62.5%;
+	width: 100vw;
+	height: 100vh;
+}
+*{
+	box-sizing: border-box;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 4.2rem;
+	margin-bottom: 4rem;
+	font-weight: 700;
+}
+h3 {
+	font-size: 2.8rem;
+	font-weight: 500;
+}
+h4 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+/* UTILITIES */
+.container {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 550px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title {
+	width: 100%;
+	height: auto;
+	color: yellow;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.scoreBox {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gameOneMGS {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	width: 70%;
+	background-color: whitesmoke;
+	margin-bottom: 1rem;
+	
+	border: 0.2rem solid #333;
+	box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5) ;
+	text-align: center;
+}
+#gameTwoMGS {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	width: 70%;
+	background-color: whitesmoke;
+	margin-bottom: 1rem;
+	border: 0.2rem solid #333;
+	box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5) ;
+	text-align: center;
+}
+
+#g1Final {
+	font-size: 3rem;
+	color: #333;
+	font-weight: 600;	
+	text-align: center;
+	z-index: 5;
+}
+#g2Final {
+	font-size: 3rem;
+	color: #333;
+	font-weight: 600;	
+	text-align: center;
+	z-index: 5;	
+}
+
+
+.flex-column {
+	width: 100%;
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+}
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+.justify-center {
+	justify-content: center;
+}
+.text-center {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+/* BUTTONS */
+.btn {
+	font-size: 2.8rem;
+	padding: 2rem 0;
+	width: 70%;
+	text-align: center;
+	border: 0.2rem solid rgb(3, 28, 247);
+	margin-bottom: 3rem;
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: #333;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(3, 28, 247, 0.843);
+}
+.btn:hover {
+	cursor: pointer;
+	color: #333;
+	background-color: whitesmoke;
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(252, 231, 2);
+	border: 0.2rem solid rgb(252, 231, 2);
+	transform: translate(-0.2rem);
+	transition: transform 150ms;
+	margin-bottom: 3rem;
+}
+.btn[disabled]:hover {
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GameOne</title>
+	<link rel='stylesheet' href='./gameOne.css' />
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Stargate Mini Game</h1>
+		</div>
+		<div class="glyph-container">
+			<div id="columnOne">
+				<button id="A1" class="btn1 choice1" data-number="1"></button>
+				<button id="A2" class="btn1 choice1" data-number="2"></button>
+				<button id="A3" class="btn1 choice1" data-number="3"></button>
+				<button id="A4" class="btn1 choice1" data-number="4"></button>
+				<button id="A5" class="btn1 choice1" data-number="5"></button>
+				<button id="A6" class="btn1 choice1" data-number="6"></button>
+			</div>
+			<div id="columnTwo">
+				<button id="B1" class="btn1 choice2" data-number="7"></button>
+				<button id="B2" class="btn1 choice2" data-number="8"></button>
+				<button id="B3" class="btn1 choice2" data-number="9"></button>
+				<button id="B4" class="btn1 choice2" data-number="10"></button>
+				<button id="B5" class="btn1 choice2" data-number="11"></button>
+				<button id="B6" class="btn1 choice2" data-number="12"></button>
+			</div>
+			<div id="columnThree">
+				<button id="C1" class="btn1 choice3" data-number="13"></button>
+				<button id="C2" class="btn1 choice3" data-number="14"></button>
+				<button id="C3" class="btn1 choice3" data-number="15"></button>
+				<button id="C4" class="btn1 choice3" data-number="16"></button>
+				<button id="C5" class="btn1 choice3" data-number="17"></button>
+				<button id="C6" class="btn1 choice3" data-number="18"></button>
+			</div>
+			<div id="columnFour">
+				<button id="D1" class="btn1 choice4" data-number="19"></button>
+				<button id="D2" class="btn1 choice4" data-number="20"></button>
+				<button id="D3" class="btn1 choice4" data-number="21"></button>
+				<button id="D4" class="btn1 choice4" data-number="22"></button>
+				<button id="D5" class="btn1 choice4" data-number="23"></button>
+				<button id="D6" class="btn1 choice4" data-number="24"></button>
+			</div>
+			<div id="columnFive">
+				<button id="E1" class="btn1 choice5" data-number="25"></button>
+				<button id="E2" class="btn1 choice5" data-number="26"></button>
+				<button id="E3" class="btn1 choice5" data-number="27"></button>
+				<button id="E4" class="btn1 choice5" data-number="28"></button>
+				<button id="E5" class="btn1 choice5" data-number="29"></button>
+				<button id="E6" class="btn1 choice5" data-number="30"></button>
+			</div>
+		</div>
+		<div class="game-container">
+			<div class="destinations">
+				<div class="score">
+					<h2 id="scoreTop">Score</h2>
+					<h2 id="scoreBottom">0</h2>
+				</div>
+				<div id="instruct">
+					<h3 id="instruction">Click a glyph from each of the above five columns to attempt to dial the correct address sequence for the Planet below. You have 5 chances per column to get it correct. The more correct the higher the score, BUT an incorrect choice will lessen your score.   GOOD LUCK </h3>
+				</div>
+				<div id="goto">
+					<p>Destination Planet Address</p>
+					<h2 id="destination">Where will You go next</h2>
+				</div>
+			</div>
+			<div class="attempts">
+				<p>Column 1</p>
+				<div id="attemptOne"><h1></h1></div>
+				<p>Column 2</p>
+				<div id="attemptTwo"><h1></h1></div>
+				<p>Column 3</p>
+				<div id="attemptThree"><h1></h1></div>
+				<p>Column 4</p>
+				<div id="attemptFour"><h1></h1></div>
+				<p>Column 5</p>
+				<div id="attemptFive"><h1></h1></div>
+			</div>
+			
+		</div>
+	</div>
+	<script src="./gameOne.js"></script>
+	<script src="./highScores.js"></script>	
+</body>
+</html>

@@ -1,0 +1,225 @@
+:root {
+	background-image: url(./minigamesg.jpeg);
+	background-repeat: no-repeat; 
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+	font-size: 62.5%;
+	width: 100vw;
+	height: 100vh;	
+}
+*{
+	box-sizing: border-box;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+h1, h2, h3, h4 {
+	margin-bottom: 1rem;
+}
+h1 {
+	font-size: 6.4rem;
+	margin-bottom: 5rem;
+	color: rgb(253, 244, 6);
+}
+h1 > span {
+	font-size: 2.4rem;
+	font-weight: 500;
+}
+h2 {
+	font-size: 4.2rem;
+	margin-bottom: 4rem;
+	font-weight: 700;
+	color: rgb(253, 244, 6);
+}
+h3 {
+	font-size: 2.1rem;
+	font-weight: 500;
+	color: whitesmoke;
+	letter-spacing: 0.1rem;
+	line-height: 2.5rem;
+}
+p {
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: whitesmoke;
+}
+/* UTILITIES */
+.container {
+	width: 550px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color:rgba(2, 24, 33, 0.546) ;
+}
+.container > * {
+	width: 100%;
+}
+.title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.glyph-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: 30vh;
+	background-color:rgba(4, 42, 57, 0.271) ;
+	border: rgb(6, 6, 240) solid 2px;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 6, 240, 1);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+}
+#columnOne, #columnTwo, #columnThree, #columnFour, #columnFive {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 60px;
+	height: auto;
+	background-color:rgba(4, 42, 57, 0.271) ;
+	
+}
+.game-container {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.destinations{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	
+}
+#instruct {
+	height: auto;
+	
+	margin-top: 1rem;
+}
+#instruction {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 1rem;
+}
+#goto {
+	text-align: center;
+	height: auto;
+	
+	margin-top: 5rem;
+}
+
+#destination {
+	text-align: center;
+	margin-top: 1rem;
+}
+.attempts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30%;
+	text-align: center;
+}
+#attemptOne, #attemptTwo, #attemptThree, #attemptFour, #attemptFive {
+	
+	padding: 10px;
+	height: 60px;
+	background-color:rgba(4, 42, 57, 0.271) ;
+	border: white solid 2px;
+	font-size: 3rem;
+	color: whitesmoke;
+	text-align: center;
+}
+.score {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+}
+#scoreTop {
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+	color: yellow;
+	letter-spacing: 0.1rem;
+	height: 2rem;
+}
+#scoreBottom {
+	font-size: 4rem;
+	font-weight: 700;
+	text-align: center;
+	color: yellow;
+}
+
+/* BUTTONS */
+button {
+	width: 40px;
+	height: 40px;
+}
+.btn1 {
+	margin: auto;
+	width: 40px;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 166, 240, 0.5);
+}
+.btn1:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 6, 240, 0.5);
+	transform: translate(-0.2rem);
+	transition: transform 150ms;
+}
+.btn1[disabled]:hover {
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
+}
+.correct {
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(39, 250, 2);
+	z-index: 10;
+}
+.incorrect {
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(250, 2, 2);
+	z-index: 1;
+}
+#A1 {background-image: url(./GameOneImages/1A.png);}
+#A2 {background-image: url(./GameOneImages/1B.png);}
+#A3 {background-image: url(./GameOneImages/1C.png);}
+#A4 {background-image: url(./GameOneImages/1D.png);}
+#A5 {background-image: url(./GameOneImages/1E.png);}
+#A6 {background-image: url(./GameOneImages/1F.png);}
+
+#B1 {background-image: url(./GameOneImages/2A.png);}
+#B2 {background-image: url(./GameOneImages/2B.png);}
+#B3 {background-image: url(./GameOneImages/2C.png);}
+#B4 {background-image: url(./GameOneImages/2D.png);}
+#B5 {background-image: url(./GameOneImages/2E.png);}
+#B6 {background-image: url(./GameOneImages/2F.png);}
+
+#C1 {background-image: url(./GameOneImages/3A.png);}
+#C2 {background-image: url(./GameOneImages/3B.png);}
+#C3 {background-image: url(./GameOneImages/3C.png);}
+#C4 {background-image: url(./GameOneImages/3D.png);}
+#C5 {background-image: url(./GameOneImages/3E.png);}
+#C6 {background-image: url(./GameOneImages/3F.png);}
+
+#D1 {background-image: url(./GameOneImages/4A.png);}
+#D2 {background-image: url(./GameOneImages/4B.png);}
+#D3 {background-image: url(./GameOneImages/4C.png);}
+#D4 {background-image: url(./GameOneImages/4D.png);}
+#D5 {background-image: url(./GameOneImages/4E.png);}
+#D6 {background-image: url(./GameOneImages/4F.png);}
+
+#E1 {background-image: url(./GameOneImages/5A.png);}
+#E2 {background-image: url(./GameOneImages/5B.png);}
+#E3 {background-image: url(./GameOneImages/5C.png);}
+#E4 {background-image: url(./GameOneImages/5D.png);}
+#E5 {background-image: url(./GameOneImages/5E.png);}
+#E6 {background-image: url(./GameOneImages/5F.png);}
