@@ -23,11 +23,13 @@
 }
 .title {
   padding-top: 30px;
-  width: 100%;
+  width: 750px;
   height: auto;
   text-align: center;
   color: black;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 .clock-box {
   width:100%;
