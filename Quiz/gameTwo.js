@@ -70,7 +70,7 @@ startGame = () => {
 
 getNewQuestion = () => {
 	if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-		localStorage.setItem("gameTwoScore", score2);
+		sessionStorage.setItem("gameTwoScore", score2);
 	return window.location.assign("./highScores.html");
 	}
 	questionCounter++;
@@ -119,7 +119,7 @@ choices.forEach(choice => {
 incrementScore = num => {
 	score2 += num;
 	scoreText.innerText = score2;
-	localStorage.setItem("gameTwoScore", score2);
+	sessionStorage.setItem("gameTwoScore", score2);
 };
 
 startGame();

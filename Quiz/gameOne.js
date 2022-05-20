@@ -103,7 +103,7 @@ startGame = () => {
 
 getNewDestination = () => {
 	if (availableDestinations.length === 0 || destinationCounter >= MAX_DESTINATIONS) {
-		localStorage.setItem("gameOneScore", score);
+		sessionStorage.setItem("gameOneScore", score);
 		return window.location.assign("./highScores.html");
 	}
 	
@@ -301,7 +301,7 @@ choices5.forEach(choice => {
 incrementScore = num => {
 	score += num;
 	scoreText.innerText = score;
-	localStorage.setItem("gameOneScore", score);
+	sessionStorage.setItem("gameOneScore", score);
 };
 
 startGame();
