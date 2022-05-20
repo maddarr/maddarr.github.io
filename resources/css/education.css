@@ -16,7 +16,7 @@
 }
 .cert-content-box{
 	width: 750px;
-	height: 1150px;
+	height: 1100px;
 	display: flex;
 	margin: 50px auto;
 	padding: 12px 0;
@@ -88,7 +88,8 @@
 .cert-button-in {
 	display: flex;
 	flex: 1;
-	margin-left: 2%;
+	width: 95%;
+	margin-left: 10px;
 	margin-bottom: 10px;
 	height: 110px;
 	background-color: #000;
@@ -109,7 +110,7 @@
   	border: 2px solid black;  
 }
 .c-b-b h4 {
-	margin-left: -40px;
+	margin-left: -30px;
 	color: whitesmoke;
 	font-size: 1.2rem;
 }
@@ -145,8 +146,9 @@
 .cert-content-text-bottom {
 	display: flex;
 	flex: 1;
-	margin: 10px auto 10px 15px;
-	height: 820px;
+	margin: 0 auto 10px 15px;
+	width: 650px;
+	height: 750px;
 	background-color: #000;
 	border-radius: 20px;
 	padding: 1.5rem 1rem;
@@ -162,18 +164,6 @@
 	color: #000;
 }
  
-.fade {
-	animation: fade 10s linear forwards;
-	opacity: 0;
-}
-  
-@keyframes fade {
-	0% {opacity: 1; }
-	25% {opacity: 1; }
-	50% {opacity: 1; }
-	75% {opacity: 1; }
-	100% {opacity: 1 ;}
-}
 
  
  
