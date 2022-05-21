@@ -168,7 +168,11 @@
 	border-bottom: 5px solid #000;
 	color: #000;
 }
- 
+@media (max-width: 1200px){
+	.cert-content-box {
+		width: 98%;
+  }
+} 
 
  
  

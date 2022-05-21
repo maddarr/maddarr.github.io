@@ -346,3 +346,8 @@ background-color:#DD4C59 ;
 #P13 {
 	text-align: end;
 }
+@media (max-width: 1200px){
+	.container {
+		width: 98%;
+  }
+}

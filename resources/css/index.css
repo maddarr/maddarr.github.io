@@ -140,3 +140,8 @@ font-size: 1.4rem;
   color: whitesmoke;
   margin-left: -40px;
 }
+@media (max-width: 1200px){
+	.landing-content-box {
+		width: 98%;
+  }
+}

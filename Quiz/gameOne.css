@@ -223,3 +223,8 @@ button {
 #E4 {background-image: url(./GameOneImages/5D.png);}
 #E5 {background-image: url(./GameOneImages/5E.png);}
 #E6 {background-image: url(./GameOneImages/5F.png);}
+@media (max-width: 1200px){
+	.container {
+		width: 98%;
+  }
+}

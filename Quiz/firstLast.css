@@ -146,3 +146,12 @@ h4 {
 	box-shadow: none;
 	transform: none;
 }
+@media (max-width: 1200px){
+	.container {
+		width: 98%;
+  }
+}
+  
+  
+  
+

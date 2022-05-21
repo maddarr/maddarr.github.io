@@ -145,5 +145,10 @@
   .contact-about-text a:hover {
 	color: rgb(16, 244, 8);
   }
+  @media (max-width: 1200px){
+	.cont-box {
+		width: 98%;
+  }
+}
 
   
