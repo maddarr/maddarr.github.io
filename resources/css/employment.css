@@ -20,14 +20,14 @@
 	height: 100vh;
 }
 .emp-content-box{
-	width: 750px;
+	width: 755px;
 	height: 1100px;
 	display: flex;
 	margin: 20px auto;
 	padding: 12px 0;
 	background: linear-gradient(#454f59 50%, #6b6954 50%);
 	border-radius: 20px;
-	overflow: hidden;
+	overflow-x: hidden;
 	position: relative;
 }
 .emp-content-panel {
@@ -79,12 +79,11 @@
 }
 .employment-content-box {
 	width: 100%;
-	
 	display: flex;
 	flex-direction: row;
 }
 #employment-content {
-	width:500px;
+	width:650px;
 	height: 950px;
 	border: 2px solid white;
 }
@@ -135,9 +134,28 @@ h5 {
 	font-weight: 500;
 	text-align: center;
 }
-@media (max-width: 1200px){
+@media (max-width: 1170px){
 	.emp-content-box {
-		width: 98%;
+		width: 95vw;
+		margin-right: 20px;
   }
+  .emp-content-inside {
+	width: 70%;
+	
+}
+  #employment-title {
+	width: 900px;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+#employment-title h3 {
+	font-size: 1.9rem;
+}
+#one {
+	font-size: 1rem;
+	line-height: 1.2rem;
+	
+}
+
 } 
  

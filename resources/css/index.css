@@ -145,4 +145,15 @@ font-size: 1.4rem;
 	.landing-content-box {
     width: 100vw;
   }
+  .landing-content-inside {
+    
+    margin-left: 20px;
+  }
+  .clock-box {
+    display: none;
+  }
+  .landing-content-panel {
+    width: 50px;
+    height: 100px;
+  }
 }
