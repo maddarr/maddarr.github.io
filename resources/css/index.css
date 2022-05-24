@@ -24,7 +24,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  overflow-y: hidden;
+  overflow-x: hidden;
   width: 100%;
   height: 100%;
 }
@@ -61,7 +61,7 @@
   padding: 12px 0;
   background: linear-gradient(#454f59 50%, #6b6954 50%);
   border-radius: 20px;
-  overflow-y: hidden;
+  overflow-x: hidden;
   position: relative;
 }
 
