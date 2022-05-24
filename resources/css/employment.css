@@ -135,15 +135,14 @@ h5 {
 	text-align: center;
 }
 @media (max-width: 1170px){
-	.emp-content-box {
-		width: 95vw;
-		margin-right: 20px;
-  }
-  .emp-content-inside {
-	width: 70%;
-	
+.emp-content-box {
+	width: 95vw;
+	margin-right: 20px;
 }
-  #employment-title {
+.emp-content-inside {
+	width: 70%;
+}
+#employment-title {
 	width: 900px;
 	text-transform: uppercase;
 	line-height: 1.2;
@@ -154,7 +153,6 @@ h5 {
 #one {
 	font-size: 1rem;
 	line-height: 1.2rem;
-	
 }
 
 } 

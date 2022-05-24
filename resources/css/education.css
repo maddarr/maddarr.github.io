@@ -20,14 +20,14 @@
 
 }
 .cert-content-box{
-	width: 750px;
+	width: 755px;
 	height: 1100px;
 	display: flex;
 	margin: 20px auto;
 	padding: 12px 0;
 	background: linear-gradient(#454f59 50%, #6b6954 50%);
 	border-radius: 20px;
-	overflow: hidden;
+	overflow-x: hidden;
 	position: relative;
 }
   
@@ -87,7 +87,7 @@
 	padding: 12px 0;
 	background: linear-gradient(#e6e2b1 50%, #b1cce6 50%);
 	border-radius: 20px 20px 20px 20px;
-	overflow: hidden;
+	overflow-x: hidden;
 	position: relative;
 }
 .cert-button-in {
@@ -100,6 +100,7 @@
 	background-color: #000;
 	border-radius: 20px;
 	padding: 1.5rem 1rem;
+	
 }
   
 .buttons{
@@ -168,11 +169,37 @@
 	border-bottom: 5px solid #000;
 	color: #000;
 }
-@media (max-width: 1200px){
+@media (max-width: 1170px){
 	.cert-content-box {
-		width: 98%;
-  }
-} 
+		width: 95vw;
+		margin-right: 20px;
+	}
+	.cert-content-inside {
+		width: 70%;
+	}
+	#cert-title {
+		width: 900px;
+		text-transform: uppercase;
+		line-height: 1.2;
+	}
+	#cert-title h3 {
+		font-size: 1.9rem;
+	}
+	.cert-content-text-bottom {
+		width: 750px;
+		justify-content: center;
+		overflow-x: hidden;
+	  }
+	  .buttons {
+		  
+	  }
+	  .c-b-b {
+		width: 200px;
+	}
+	.c-b-b h4 {
+		font-size: 1rem;
+	}
+	} 
 
  
  
