@@ -14,10 +14,6 @@
 	margin: 0;
 	padding: 0;
 }
-
-
-
-
 .page-container {
   width: 100vw;
   height: 100vh;
@@ -34,7 +30,7 @@
 }
 .title {
   padding-top: 30px;
-  width: 745px;
+  width: 100%;
   height: auto;
   text-align: center;
   color: black;
