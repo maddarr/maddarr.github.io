@@ -15,13 +15,6 @@
 	padding: 0;
 	color: #333;
 }
-h1, h2, h3, h4 {
-	margin-bottom: 1rem;
-}
-h1 > span {
-	font-size: 2.4rem;
-	font-weight: 500;
-}
 h3 {
 	font-size: 2.1rem;
 	font-weight: 500;
@@ -36,17 +29,20 @@ p {
 }
 /* UTILITIES */
 .container {
+	width: 100%;
+	height: 100vh;
+}
+.inner-container {
 	width: 550px;
-	height:930px;
+	height:auto;
 	margin: 0 auto;
 	padding: 2rem 0;
 	background-color: black;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 35px;
+	overflow: hidden;
 }
-.container > * {
-	width: 100%;
-}
+
 .title {
 	width: 100%;
 	display: flex;
@@ -292,48 +288,50 @@ background-color:#DD4C59 ;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	z-index: 1;
 }
 #P9 {
-	height: 300px;
+	height: 400px;
 	width: 150px;
 	background-color:#F7F8CD ;
 	border-top-left-radius: 30px;
 }
 #P10 {
 	width: 100px;
-	height: 300px;
+	height: 400px;
 	background-color:#9E93C7 ;
 }
 #P11 {
 	width: 30px;
-	height: 300px;
+	height: 400px;
 	background-color:#F89922 ;
 }
 #P12 {
 	width: 380px;
-	height: 300px;
+	height: 400px;
 	background-color:#6A8697 ;
 	text-align: end;
-}
-
-	
+}	
 .ships {
 	width: 400px;
 }
 #ships-inner {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	background-color: black;
-	margin-left: 110px;
+	margin-left: 40px;
 	margin-top:-280px;
 }
 .enemy img {
+	width: 230px;
+	margin-top: -100px;
 	border-bottom-left-radius: 25px;
 	border-top-left-radius: 25px;
 }
 .yours img {
-	
+	width: 230px;
+	margin-left: 10px;
+	margin-top: -100px;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;	
 }
@@ -346,8 +344,50 @@ background-color:#DD4C59 ;
 #P13 {
 	text-align: end;
 }
-@media (max-width: 1200px){
-	.container {
-		width: 98%;
-  }
+@media (max-width: 1170px){
+	.inner-container {
+		width: 450px;
+		height:auto;
+	}
+	#trek {
+		width: 450px;
+	}
+	#star {
+		margin-left: 30px;
+		font-size: 4rem;
+	}
+	#score-panel {
+		width: 30px;
+	}
+	#question {
+		font-size: 2.3rem;
+	}
+	#progressText{
+		margin-left: -105px;	
+	}
+	#ships-inner {
+		width: 100%;
+		margin-left: 30px;
+	}
+	.enemy img {
+		margin-top: 0;
+		width: 100%;
+	}
+	.yours img {
+		margin-top: 0;
+		width: 100%;	
+	}
+	#P9 {
+		height: 300px;
+	}
+	#P10 {
+		height: 300px;
+	}
+	#P11 {
+		height: 300px;
+	}
+	#P12 {
+		height: 300px;
+	}
+	
 }

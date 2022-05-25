@@ -15,9 +15,7 @@
 	padding: 0;
 	color: #333;
 }
-h1, h2, h3, h4 {
-	margin-bottom: 1rem;
-}
+
 h1 {
 	font-size: 6.4rem;
 	margin-bottom: 5rem;
@@ -49,15 +47,22 @@ p {
 	color: whitesmoke;
 }
 /* UTILITIES */
+
 .container {
-	width: 550px;
-	height: 100%;
+	width: 100%;
+	height: 100vh;
+	background-color:rgba(2, 24, 33, 0.546) ;
+	background-repeat: no-repeat; 
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+}
+.inner-container {
+	width: 650px;
+	height: auto;
 	margin: 0 auto;
 	padding: 2rem;
-	background-color:rgba(2, 24, 33, 0.546) ;
-}
-.container > * {
-	width: 100%;
+	
 }
 .title {
 	width: 100%;
@@ -228,18 +233,24 @@ button {
 
 
 @media (max-width: 1170px){
-	.container {
-		width: 98%;
-  }
-  h3{
+	.inner-container {
+		width: 450px;
+}
+h1 {
+	font-size: 5rem;
+}
+h2 {
+	font-size: 3.2rem;
+}
+h3{
 	  font-size: 0;
-  }
+}
  h4{
 	font-size: 3.1rem;
 	font-weight: 500;
 	color: whitesmoke;
 	letter-spacing: 0.1rem;
-  }
+}
 #instruct {
 	margin-top: 0;
 }
