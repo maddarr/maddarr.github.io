@@ -146,9 +146,29 @@
 	color: rgb(16, 244, 8);
   }
   @media (max-width: 1200px){
-	.cont-box {
+	.cont-box{
 		width: 98%;
-  }
+		height: 1300px;
+	  }
+	  .contact-box-in {
+		width: 91%;
+		height: 1240px;	
+	} 
+	.contact-about-text {
+		font-size: 1rem;
+		line-height: 1.2rem;
+	  }
+	  .c-button {
+		width: 102px;
+		height: 60px;
+		background-image: url(../images/tinybutton.png);
+		font-size: 1.2rem;
+		color: whitesmoke;
+		font-weight: 600;
+	}
+	.c-button h4 {
+		  font-size: 0;
+	}
 }
 
   
