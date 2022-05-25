@@ -120,7 +120,7 @@
 	margin-bottom: 10px;
 	height: 220px;
 	background-color: #000;
-	border-radius: 20px 20px 20px 20px;
+	border-radius: 20px;
 	padding: 1.5rem 1rem;
 }
 .port-content-text-in p {
@@ -207,20 +207,34 @@
 	  line-height: 1.4rem;
 	  font-weight: 600;
   }
-  @media (max-width: 1200px){
+
+
+
+
+  @media (max-width: 1170px){
 	.port-content-box {
 		width: 98%;
   }
   .port-heading h3 {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
+}
+.port-content-inside {
+	width: 95%;
+	margin-left: 10px;
 }
 .port-content-panel1 p{
 	font-size: 0;
 }
 .port-content-panel1 {
-	width: 30px;
-	
+	width: 10px;
 }
+.port-content-text-in p {
+	line-height: 1.1rem;
+}
+.port-content-text-in {
+	font-size: 1rem;
+}
+
   .pfb {
 	width: 228px;
 	height: 58px;
@@ -233,4 +247,10 @@
 	letter-spacing: 0.1rem;
 	line-height: 1.2rem;
 }
+.port-buttons {
+	margin-top: -30px;
+}
+.pfb h4{
+	font-size: 1.2rem;
+  }
 }
