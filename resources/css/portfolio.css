@@ -211,4 +211,26 @@
 	.port-content-box {
 		width: 98%;
   }
+  .port-heading h3 {
+	font-size: 1.8rem;
+}
+.port-content-panel1 p{
+	font-size: 0;
+}
+.port-content-panel1 {
+	width: 30px;
+	
+}
+  .pfb {
+	width: 228px;
+	height: 58px;
+	background-image: url(../images/smallbutton.png);
+	overflow: hidden;
+	background-repeat: no-repeat;
+  }
+  .port-buttons h2 {
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.2rem;
+}
 }
