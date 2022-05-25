@@ -138,7 +138,8 @@ h5 {
 
 @media (max-width: 1170px){
 .emp-content-box {
-	width: 95vw;
+	width: 95%;
+	height: 100%;
 	margin-right: 20px;
 }
 .emp-content-inside {
