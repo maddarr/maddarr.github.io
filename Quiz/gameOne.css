@@ -40,6 +40,9 @@ h3 {
 	letter-spacing: 0.1rem;
 	line-height: 2.5rem;
 }
+h4 {
+	font-size: 0;
+}
 p {
 	font-size: 1.8rem;
 	font-weight: 500;
@@ -102,7 +105,6 @@ p {
 }
 #instruct {
 	height: auto;
-	
 	margin-top: 1rem;
 }
 #instruction {
@@ -114,7 +116,6 @@ p {
 #goto {
 	text-align: center;
 	height: auto;
-	
 	margin-top: 5rem;
 }
 
@@ -223,8 +224,50 @@ button {
 #E4 {background-image: url(./GameOneImages/5D.png);}
 #E5 {background-image: url(./GameOneImages/5E.png);}
 #E6 {background-image: url(./GameOneImages/5F.png);}
-@media (max-width: 1200px){
+
+
+
+@media (max-width: 1170px){
 	.container {
 		width: 98%;
   }
+  h3{
+	  font-size: 0;
+  }
+ h4{
+	font-size: 3.1rem;
+	font-weight: 500;
+	color: whitesmoke;
+	letter-spacing: 0.1rem;
+  }
+#instruct {
+	margin-top: 0;
+}
+#instruction {
+	margin-top: -20px;
+}
+#goto {
+	margin-top: 20px;
+}
+
+#destination {
+	margin-top: 0;
+}
+.score {
+	height: 70px;
+	margin-top: 10px;
+}
+#scoreTop {
+	height: 10px;
+	font-size: 3rem;
+}
+#scoreBottom {
+	height: 10px;
+	font-size: 4rem;
+}
+#attemptOne, #attemptTwo, #attemptThree, #attemptFour, #attemptFive {
+	padding: 5px;
+	height: 40px;
+	font-size: 2rem;
+}
 }
