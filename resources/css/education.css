@@ -198,19 +198,20 @@
 	}
 	  .c-b-b {
 		text-align: center;
-		width: 100px;
-		height: 50px;
-		background-image: none;
-	   	background-color: #758594;
-		border-radius: 30px;
-		border: 2px solid black;
-		font-weight: bold;
+		width: 105px;
+		height: 60px;
+		background-image: url(../images/tinybutton.png);
 		font-size: 1.3rem; 
+		color: whitesmoke;
+		overflow: hidden;
 
 	}
 	.c-b-b h4 {
 		font-size: 0;
 		color: #758594;
+	}
+	#image1 {
+		width: 100%;
 	}
 	} 
 
