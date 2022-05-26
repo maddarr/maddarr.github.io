@@ -346,11 +346,11 @@ background-color:#DD4C59 ;
 }
 @media (max-width: 570px){
 	.inner-container {
-		width: 450px;
+		width: 100%;
 		height:auto;
 	}
 	#trek {
-		width: 450px;
+		width: 100%;
 	}
 	#star {
 		margin-left: 30px;
