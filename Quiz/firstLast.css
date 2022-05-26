@@ -161,7 +161,7 @@ h4 {
 	box-shadow: none;
 	transform: none;
 }
-@media (max-width: 1170px){
+@media (max-width: 570px){
 
 	.inner-containere{
 		margin-top: 0;

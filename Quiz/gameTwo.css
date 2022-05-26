@@ -344,7 +344,7 @@ background-color:#DD4C59 ;
 #P13 {
 	text-align: end;
 }
-@media (max-width: 1170px){
+@media (max-width: 570px){
 	.inner-container {
 		width: 450px;
 		height:auto;
@@ -371,11 +371,11 @@ background-color:#DD4C59 ;
 	}
 	.enemy img {
 		margin-top: 0;
-		width: 100%;
+		width: 200px;
 	}
 	.yours img {
 		margin-top: 0;
-		width: 100%;	
+		width: 200px;	
 	}
 	#P9 {
 		height: 300px;
