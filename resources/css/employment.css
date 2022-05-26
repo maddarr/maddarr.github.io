@@ -66,6 +66,12 @@
 	font-weight: 600;
 	text-align: center;
 }
+#employment-back:hover {
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(3, 32, 255);
+	cursor: pointer;
+	transform: translate(-0.2rem);
+	transition: transform 150ms;
+}
 
 #employment-title {
 	width: 900px;
@@ -146,9 +152,8 @@ h5 {
 }
 .emp-content-inside {
 	margin-left: 1px;
-	
+	margin-right: 1px;
 	width: 100%;
-	overflow: hidden;
 }
 #employment-title {
 	width: 900px;

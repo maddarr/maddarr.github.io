@@ -83,6 +83,12 @@
 	font-weight: 600;
 	text-align: center;
 }
+.port-back:hover {
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(3, 32, 255);
+	cursor: pointer;
+	transform: translate(-0.2rem);
+	transition: transform 150ms;
+}
 .port-heading {
 	width: 700px;
 	margin-top: auto;
@@ -211,22 +217,43 @@
 
 
 
-  @media (max-width: 1170px){
+  @media (max-width: 570px){
 	.port-content-box {
-		width: 98%;
+		width: 100%;
   }
   .port-heading h3 {
 	font-size: 1.3rem;
 }
 .port-content-inside {
-	width: 95%;
-	margin-left: 10px;
+	width: 100%;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.port-banner-box {
+	width: 104%;
+	margin-left: -10px;
+}
+.port-banner-inside {
+	width: 98%;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+.port-content-box-in {
+	width: 104%;
+	margin-left: -10px;	
+}
+.port-content-box-bottom{
+	width: 104%;
+	margin-left: -10px;		
 }
 .port-content-panel1 p{
 	font-size: 0;
 }
 .port-content-panel1 {
-	width: 10px;
+	width: 5px;
+}
+.port-content-panel2 {
+	width: 5px;
 }
 .port-content-text-in p {
 	line-height: 1.1rem;
