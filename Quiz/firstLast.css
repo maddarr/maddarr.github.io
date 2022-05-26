@@ -32,15 +32,13 @@ h4 {
 
 /* UTILITIES */
 .container {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 }
 .inner-container{
-	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	width: 750px;
 	height: 100vh;
@@ -48,7 +46,6 @@ h4 {
 	margin-right: auto;
 }
 .inner-containere{
-	margin-top: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -164,7 +161,6 @@ h4 {
 @media (max-width: 570px){
 
 	.inner-containere{
-		margin-top: 0;
 		width: 450px;
 		height: 100%;
 	}
