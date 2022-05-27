@@ -87,7 +87,7 @@ getNewQuestion = () => {
 		choice.innerText = currentQuestion["choice" + number];
 	});
 
-	availableQuestions.splice(questionIndex, 1);
+	//availableQuestions.splice(questionIndex, 1);
 	acceptingAnswers = true;
 };
 

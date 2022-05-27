@@ -354,7 +354,7 @@ background-color:#DD4C59 ;
 	}
 	#star {
 		margin-left: 30px;
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	#score-panel {
 		width: 30px;
@@ -369,25 +369,11 @@ background-color:#DD4C59 ;
 		width: 100%;
 		margin-left: 30px;
 	}
-	.enemy img {
-		margin-top: 0;
-		width: 200px;
+	#ships-top {
+		display: none;
 	}
-	.yours img {
-		margin-top: 0;
-		width: 200px;	
-	}
-	#P9 {
-		height: 300px;
-	}
-	#P10 {
-		height: 300px;
-	}
-	#P11 {
-		height: 300px;
-	}
-	#P12 {
-		height: 300px;
+	.ships {
+		display: none;
 	}
 	
 }

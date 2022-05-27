@@ -255,7 +255,7 @@ h3{
 	margin-top: 0;
 }
 #instruction {
-	margin-top: -20px;
+	margin-top: -10px;
 }
 #goto {
 	margin-top: 20px;
@@ -274,7 +274,7 @@ h3{
 }
 #scoreBottom {
 	height: 10px;
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 #attemptOne, #attemptTwo, #attemptThree, #attemptFour, #attemptFive {
 	padding: 5px;
