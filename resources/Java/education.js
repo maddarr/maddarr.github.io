@@ -16,53 +16,54 @@ let clicked6 = false
 let clicked7 = false
 let clicked8 = false 
 let clicked9 = false 
+let clicked10 = false 
 
 function CC1() {
 if (!cert1active) return;
 if (clicked1 == false) {
-	if (clicked3 == false & clicked4 == false & clicked5 == false & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false ){
+	if (clicked3 == false & clicked4 == false & clicked5 == false & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false & clicked10 == false ){
 		var img = document.getElementById("image1");
 		img.src="./resources/images/LCSS.png";
 		clicked1 = false;
 		cert2active = false;
 		cert3active = false;
 		clicked3 = true;
-	} else if(clicked3 == true & clicked4 == false & clicked5 == false & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false ) {
+	} else if(clicked3 == true & clicked4 == false & clicked5 == false & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false & clicked10 == false  ) {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/LCSSInter.png";
 		clicked1 = false;
 		cert2active = false;
 		cert3active = false;
 		clicked4 = true;
-	} else if (clicked3 == true & clicked4 == true & clicked5 == false & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false ) {
+	} else if (clicked3 == true & clicked4 == true & clicked5 == false & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false & clicked10 == false  ) {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/LHTML.png";
 		clicked1 = false;
 		cert2active = false;
 		cert3active = false;
 		clicked5 = true;
-	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false ) {
+	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == false & clicked7 == false & clicked8 == false & clicked9 == false & clicked10 == false  ) {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/LJS.png";
 		clicked1 = false;
 		cert2active = false;
 		cert3active = false;
 		clicked6 = true;
-	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == false & clicked8 == false & clicked9 == false ) {
+	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == false & clicked8 == false & clicked9 == false & clicked10 == false  ) {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/LP3.png";
 		clicked1 = false;
 		cert2active = false;
 		cert3active = false;
 		clicked7 = true;
-	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == true & clicked8 == false & clicked9 == false ) {
+	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == true & clicked8 == false & clicked9 == false & clicked10 == false  ) {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/LCLine.png";
 		clicked1 = false;
 		cert2active = false;
 		cert3active = false;
 		clicked8 = true;
-	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == true & clicked8 == true & clicked9 == false ) {
+	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == true & clicked8 == true & clicked9 == false & clicked10 == false  ) {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/Web.jpg";
 		clicked1 = false;
@@ -70,8 +71,17 @@ if (clicked1 == false) {
 		cert3active = false;
 		clicked9 = true;
 		
-	} else {
+	} else if (clicked3 == true & clicked4 == true & clicked5 == true & clicked6 == true & clicked7 == true & clicked8 == true & clicked9 == true & clicked10 == false  ) {
+		var img = document.getElementById("image1");
+		img.src="./resources/images/LJSInter.jpg";
+		clicked1 = false;
+		cert2active = false;
+		cert3active = false;
+		clicked10 = true;
 		
+	}
+	
+	else {
 		var img = document.getElementById("image1");
 		img.src="./resources/images/educat.png";
 		clicked1 = false;
@@ -84,6 +94,7 @@ if (clicked1 == false) {
 		clicked7 = false;
 		clicked8 = false;
 		clicked9 = false;
+		clicked10 = false;
 	};
 	
 
